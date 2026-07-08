@@ -168,6 +168,25 @@ hr.hairline {
 .hero {
   padding: 90px 0 70px;
   border-bottom: var(--rule);
+  display: grid;
+  grid-template-columns: 1.3fr 1fr;
+  gap: 56px;
+  align-items: center;
+}
+
+.hero-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 1px solid var(--grey-light);
+}
+
+@media (max-width: 780px) {
+  .hero {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+  .hero-image { max-width: 320px; }
 }
 
 .hero h1 {
