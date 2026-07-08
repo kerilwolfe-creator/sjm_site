@@ -23,8 +23,6 @@ const ARTICLES = [
     teaser:
       "We like to think of the electrical grid as the ultimate public utility—a shared, democratic piece of infrastructure delivering the same electron to a high-tech facility as it does to a residential home. That version of the grid is dead.",
     content: [
-      "We like to think of the electrical grid as the ultimate public utility—a shared, democratic piece of infrastructure delivering the same electron to a high-tech facility as it does to a residential home.",
-      "That version of the grid is dead.",
       "Driven by unprecedented, simultaneous spikes in demand, the modern grid is rapidly organizing into a rigid, capital-driven hierarchy. Instead of a shared resource, energy is becoming stratified. The groups with the highest margins are effectively colonizing the most reliable, cleanest power, leaving the rest of society to absorb the volatility of a strained public system.",
       "The new grid hierarchy has five distinct tiers, and the gaps between them is widening by the day:",
       "Tier 1: High-Margin Biologics & Pharma (The Apex Predators)",
