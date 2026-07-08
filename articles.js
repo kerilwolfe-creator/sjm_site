@@ -19,7 +19,7 @@ const ARTICLES = [
     id: "grid-hierarchy",
     title: "The Energy Hierarchy: How High-Margin Capital is Colonizing the Grid",
     date: "2026-06-18",
-    image: "grid_hierarchy_image.png",
+    image: "images/grid_hierarchy_image.png",
     teaser:
       "We like to think of the electrical grid as the ultimate public utility—a shared, democratic piece of infrastructure delivering the same electron to a high-tech facility as it does to a residential home. That version of the grid is dead.",
     content: [
