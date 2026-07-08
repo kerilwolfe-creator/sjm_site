@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About — Steven J. Murray</title>
+<meta name="description" content="About Steven J. Murray — former executive and macro advisor to private equity firms.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <div class="brand">
+      <a href="index.html">
+        <span class="cap">S</span><span class="rest">TEVEN</span><span class="space"></span><span class="cap">J</span><span class="rest">.</span><span class="space"></span><span class="cap">M</span><span class="rest">URRAY</span>
+      </a>
+    </div>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+    <nav class="primary-nav" id="primary-nav">
+      <ul>
+        <li><a href="insights.html">Insights</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="page-eyebrow-row"><div class="eyebrow">About</div></div>
+
+  <div class="about-layout">
+    <div>
+      <h1>Steven J. Murray</h1>
+      <div class="content">
+        <p>Steven spent [X years] in executive leadership — most recently as [Title] at [Company] — before moving into advisory work. That operating background shapes how he reads macro data: not as an academic exercise, but as something that shows up directly in demand forecasts, financing costs, and the assumptions behind a deal thesis.</p>
+        <p>Today he works with private equity firms and portfolio company leadership teams, translating macroeconomic conditions — rate cycles, credit availability, labor markets, sector-specific demand shifts — into implications for underwriting, operating plans, and board-level decisions. Engagements range from a single investment committee briefing to ongoing advisory retainers through a hold period.</p>
+        <p>He writes the Insights section for the same reason he takes on advisory work: most macro commentary is either too academic to act on or too shallow to trust. His aim is the middle — analysis a management team or deal team can actually use.</p>
+      </div>
+    </div>
+
+    <div>
+      <div class="about-portrait">Portrait</div>
+      <ul class="about-facts">
+        <li><span>Background</span><span>Former [Title], [Company]</span></li>
+        <li><span>Advises</span><span>PE firms &amp; portfolio companies</span></li>
+        <li><span>Focus</span><span>Macro risk, credit &amp; labor cycles</span></li>
+        <li><span>Based in</span><span>[City, State]</span></li>
+        <li><span>Contact</span><span><a href="contact.html">Get in touch</a></span></li>
+      </ul>
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <span>&copy; <span id="year"></span> Steven J. Murray</span>
+    <a href="contact.html">Contact</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>

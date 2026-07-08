@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Steven J. Murray</title>
+<meta name="description" content="Get in touch with Steven J. Murray.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <div class="brand">
+      <a href="index.html">
+        <span class="cap">S</span><span class="rest">TEVEN</span><span class="space"></span><span class="cap">J</span><span class="rest">.</span><span class="space"></span><span class="cap">M</span><span class="rest">URRAY</span>
+      </a>
+    </div>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+    <nav class="primary-nav" id="primary-nav">
+      <ul>
+        <li><a href="insights.html">Insights</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="page-eyebrow-row"><div class="eyebrow">Contact</div></div>
+
+  <div class="contact-layout">
+    <div>
+      <h1>Get in touch</h1>
+      <p class="contact-intro">For advisory inquiries — investment committee briefings, portfolio company engagements, or diligence support — reach out below or directly by email. Also open to press and syndication requests.</p>
+      <ul class="contact-details">
+        <li><span>Email</span><a href="mailto:steven@example.com">steven@example.com</a></li>
+        <li><span>LinkedIn</span><a href="https://www.linkedin.com" target="_blank" rel="noopener">linkedin.com/in/steven-murray</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <!--
+        This form currently has no backend, so submissions won't send
+        anywhere yet. Two easy options to make it live:
+          1. Formspree (formspree.io) — free tier, no server needed.
+             Change the form's action to your Formspree endpoint.
+          2. A "mailto:" link instead of a form, if you'd rather keep
+             it simple.
+      -->
+      <form class="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
+        <div class="field">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="field">
+          <label for="firm">Firm <span style="text-transform:none; letter-spacing:0;">(optional)</span></label>
+          <input type="text" id="firm" name="firm">
+        </div>
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <button class="submit-btn" type="submit">Send message</button>
+        <p class="form-note">Replace the form's action with a Formspree endpoint (or similar) to receive these submissions by email.</p>
+      </form>
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <span>&copy; <span id="year"></span> Steven J. Murray</span>
+    <a href="contact.html">Contact</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
