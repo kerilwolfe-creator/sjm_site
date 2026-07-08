@@ -39,7 +39,7 @@ const ARTICLES = [
       "At the absolute base are those with zero capital to invest in efficiency or micro-generation. They are 100% exposed to rising utility rates and spot-market spikes, often paying the highest percentage of their income for the least reliable service.",
       "The Regulatory Catch-22",
       "This stratification is happening because public utility commissions (PUCs) are utterly unequipped for this concentration of corporate capital.",
-      "When a tech or pharma giant offers to fund a massive new substation or pay a heavy premium directly to an Independent Power Producer (IPP), regulators face an impossible choice. Say ("no") to protect grid equity, and watch those high-paying jobs and tax dollars migrate to another state. Say "yes," and they inadvertently codify a multi-tiered energy society into law.",
+      "When a tech or pharma giant offers to fund a massive new substation or pay a heavy premium directly to an Independent Power Producer (IPP), regulators face an impossible choice. Say \"no\" to protect grid equity, and watch those high-paying jobs and tax dollars migrate to another state. Say "yes," and they inadvertently codify a multi-tiered energy society into law.",
       "The Bottom Line",
       "Energy availability is becoming the ultimate competitive advantage. If capital alone dictates grid resilience, the public grid risks becoming a degraded, volatile asset used only by those who cannot afford to buy their way out of it.",
       "We are moving from an era of energy transition to an era of energy stratification.",
