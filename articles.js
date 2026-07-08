@@ -43,7 +43,7 @@ const ARTICLES = [
       "The Bottom Line",
       "Energy availability is becoming the ultimate competitive advantage. If capital alone dictates grid resilience, the public grid risks becoming a degraded, volatile asset used only by those who cannot afford to buy their way out of it.",
       "We are moving from an era of energy transition to an era of energy stratification.",
-      "The question for leadership is no longer just how much power we can generate — but who gets it when there is not enough for all consumers simultaneously.Replace this paragraph with your first paragraph. This placeholder article is here so you can see how the layout, spacing, and typography behave with real sentence lengths — swap in your own writing whenever you're ready.",
+      "The question for leadership is no longer just how much power we can generate — but who gets it when there is not enough for all consumers simultaneously.",
     ],
   },
   {
