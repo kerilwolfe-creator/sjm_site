@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Insights — Steven J. Murray</title>
+<meta name="description" content="Writing on macroeconomic trends, credit cycles, and policy from Steven J. Murray.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <div class="brand">
+      <a href="index.html">
+        <span class="cap">S</span><span class="rest">TEVEN</span><span class="space"></span><span class="cap">J</span><span class="rest">.</span><span class="space"></span><span class="cap">M</span><span class="rest">URRAY</span>
+      </a>
+    </div>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+    <nav class="primary-nav" id="primary-nav">
+      <ul>
+        <li><a href="insights.html">Insights</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="page-eyebrow-row">
+    <div class="eyebrow">Insights</div>
+    <div class="eyebrow" id="post-count"></div>
+  </div>
+
+  <div class="insights-layout">
+    <aside class="insights-sidebar">
+      <h2>Contents</h2>
+      <ul class="toc-list" id="toc-list"><!-- Populated by script.js --></ul>
+    </aside>
+
+    <div class="articles-column" id="articles-column"><!-- Populated by script.js --></div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <span>&copy; <span id="year"></span> Steven J. Murray</span>
+    <a href="contact.html">Contact</a>
+  </div>
+</footer>
+
+<script src="articles.js"></script>
+<script src="script.js"></script>
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+  document.addEventListener("DOMContentLoaded", () => {
+    const el = document.getElementById("post-count");
+    if (el && typeof ARTICLES !== "undefined") {
+      el.textContent = `${ARTICLES.length} post${ARTICLES.length === 1 ? "" : "s"}`;
+    }
+  });
+</script>
+</body>
+</html>
