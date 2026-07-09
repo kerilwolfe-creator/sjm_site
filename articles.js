@@ -12,10 +12,12 @@
    image   — path to an image, or leave "" to show a plain placeholder block
    teaser  — 1–2 sentence summary shown under the title
    content — array of paragraph strings (each string = one paragraph)
+             Start a string with "## " to render it as a bold section
+             heading instead of a normal paragraph — e.g. "## The Bottom Line"
    ========================================================================= */
 
 const ARTICLES = [
-   {
+  {
     id: "grid-hierarchy",
     title: "The Energy Hierarchy: How High-Margin Capital is Colonizing the Grid",
     date: "2026-06-18",
@@ -25,20 +27,20 @@ const ARTICLES = [
     content: [
       "Driven by unprecedented, simultaneous spikes in demand, the modern grid is rapidly organizing into a rigid, capital-driven hierarchy. Instead of a shared resource, energy is becoming stratified. The groups with the highest margins are effectively colonizing the most reliable, cleanest power, leaving the rest of society to absorb the volatility of a strained public system.",
       "The new grid hierarchy has five distinct tiers, and the gaps between them is widening by the day:",
-      "Tier 1: High-Margin Biologics & Pharma (The Apex Predators)",
+      "## Tier 1: High-Margin Biologics & Pharma (The Apex Predators)",
       "When a drug class like GLP-1s generates tens of billions in high-margin revenue, the absolute cost of power is irrelevant—but reliability is everything. A single voltage flicker can ruin a massive batch of highly sensitive bioreactor cultures. Mega-pharma has the capital to build fully redundant, islanded microgrids and secure behind-the-meter generation, ensuring 100% uptime regardless of public grid conditions.",
-      "Tier 2: AI Hyperscalers & Cloud Titans (The Cloud Monopolies)",
+      "## Tier 2: AI Hyperscalers & Cloud Titans (The Cloud Monopolies)",
       "Right below pharma are the tech giants. Needing massive, continuous baseload power to feed hyperscale data centers while meeting net-zero targets, they are bypassing traditional utility queues entirely. They are ring-fencing the best energy assets for themselves-buying up entire nuclear outputs or locking up utility-scale storage through exclusive Power Purchase Agreements (PPAs).",
-      "Tier 3: Traditional Commerce & Heavy Industry (The Trapped Middle)",
+      "## Tier 3: Traditional Commerce & Heavy Industry (The Trapped Middle)",
       "Automotive, steel, chemical manufacturing, and standard commercial real estate operate on much tighter margins. They cannot easily absorb a doubling of power costs, yet they are trapped on the public grid. As Tier 1 and 2 outbid them for premium assets, traditional industry is left to bear the brunt of rising transmission charges and volatile wholesale spot markets.",
-      "Tier 4: Mid-to-High Income Residential (The Insulated Consumers)",
+      "## Tier 4: Mid-to-High Income Residential (The Insulated Consumers)",
       "Affluent homeowners face rising retail rates, but they possess the capital to insulate themselves. By investing in residential solar, home battery systems, and smart efficiency, they can pivot to self-generation during peak pricing or grid instability. They are effectively opting out of the worst parts of the public system.",
-      "Tier 5: Low-Income Residential (The Energy Underclass)",
+      "## Tier 5: Low-Income Residential (The Energy Underclass)",
       "At the absolute base are those with zero capital to invest in efficiency or micro-generation. They are 100% exposed to rising utility rates and spot-market spikes, often paying the highest percentage of their income for the least reliable service.",
-      "The Regulatory Catch-22",
+      "## The Regulatory Catch-22",
       "This stratification is happening because public utility commissions (PUCs) are utterly unequipped for this concentration of corporate capital.",
       "When a tech or pharma giant offers to fund a massive new substation or pay a heavy premium directly to an Independent Power Producer (IPP), regulators face an impossible choice. Say \"no\" to protect grid equity, and watch those high-paying jobs and tax dollars migrate to another state. Say \"yes,\" and they inadvertently codify a multi-tiered energy society into law.",
-      "The Bottom Line",
+      "## The Bottom Line",
       "Energy availability is becoming the ultimate competitive advantage. If capital alone dictates grid resilience, the public grid risks becoming a degraded, volatile asset used only by those who cannot afford to buy their way out of it.",
       "We are moving from an era of energy transition to an era of energy stratification.",
       "The question for leadership is no longer just how much power we can generate—but who gets it when there is not enough for all consumers simultaneously.",
@@ -48,11 +50,10 @@ const ARTICLES = [
     id: "the-ai-power-boom-is-racing",
     title: "The AI Power Boom Is Racing Toward a Multi‑Trillion‑Dollar Wall",
     date: "2026-06-30",
-    image: "",
+    image: "images/the-ai-power-boom-is-racing.jpg",
     teaser:
       "Tech hyperscalers and utilities have already committed **hundreds of billions** to data centers and **$1.4 trillion** to grid expansion. If AI demand plateaus, those gigawatts don’t disappear - they become a multi‑trillion‑dollar liability split between long Power Purchase Agreements (PPAs) and stranded grid investments. This is where the power goes - and who gets stuck with the bill.",
     content: [
-      "Tech hyperscalers and utilities have already committed **hundreds of billions** to data centers and **$1.4 trillion** to grid expansion. If AI demand plateaus, those gigawatts don’t disappear - they become a multi‑trillion‑dollar liability split between long Power Purchase Agreements (PPAs) and stranded grid investments. This is where the power goes - and who gets stuck with the bill.",
       "## The structural walls facing AI",
       "The AI buildout is colliding with three immediate, real‑world limits:",
       "**The Scaling Limit.** Adding compute and data to large models is producing diminishing returns as high‑quality human data becomes scarce.",
@@ -77,16 +78,15 @@ const ARTICLES = [
       "## This is a forward‑looking, multi‑trillion‑dollar gamble — not a rerun of the 1990s.",
     ],
   },
-   
+
   {
     id: "reframing-the-refugee-narrative-an-economic",
     title: "Reframing the Refugee Narrative: An Economic Imperative",
     date: "2026-06-16",
-    image: "",
+    image: "images/reframing-the-refugee-narrative-an-economic.jpg",
     teaser:
       "Framing 120 million displaced people in the world solely as a humanitarian crisis isn't working anymore.",
     content: [
-      "Framing 120 million displaced people in the world solely as a humanitarian crisis isn't working anymore.",
       "In today’s political climate, the traditional model of refugee resettlement has flatlined. Look at the numbers:",
       "**1990:** 141,000 refugees rehoused (the high watermark).",
       "**2025:** Fewer than 2,000.",
@@ -111,12 +111,11 @@ const ARTICLES = [
     id: "what-started-as-a-waistline-fix",
     title: "What started as a waistline fix is officially rewriting the U.S. economy",
     date: "2026-06-09",
-    image: "",
+    image: "images/what-started-as-a-waistline-fix.jpg",
     teaser:
       "What began as a breakthrough for Type 2 diabetes has become the defining economic disruption of the decade - and we're only in the early innings.",
     content: [
       "## GLP-1: The Macro Shift Hiding in Plain Sight",
-      "What began as a breakthrough for Type 2 diabetes has become the defining economic disruption of the decade - and we're only in the early innings.",
       "With 40+ million Americans now on GLP-1 medications and financial barriers crumbling (patent expirations, government pricing caps, oral alternatives), the user base is set to explode. This is no longer a medical trend. It's a structural reset of consumer demand across virtually every sector of the economy, with the implications reaching as far as the national debt.",
       "## Healthcare: A Deflationary Wave",
       "Healthcare spending accounts for nearly 17% of U.S. GDP, driven largely by late-stage treatments for obesity-related chronic disease. Mass GLP-1 adoption is triggering cost deflation across the system - offering a credible path to reining in Medicare expenditures and, by extension, long-term federal debt.",
@@ -150,12 +149,11 @@ const ARTICLES = [
     id: "morocco-beyond-the-postcard-the-hidden",
     title: "Morocco Beyond the Postcard: The Hidden Engine Driving North Africa's Transformation",
     date: "2025-12-18",
-    image: "",
+    image: "images/morocco-beyond-the-postcard-the-hidden.jpg",
     teaser:
       "Like many i suspect, my preconceived notions about Morocco were wildly inaccurate. My recent trip quickly dispelled them, revealing a nation in a dynamic, journey of rapid transformation. Morocco is far more than ancient cities, agriculture and desert landscapes; it is a developing economy driven by a vision for the future.",
     content: [
       "## Morocco: A Nation of Surprises and Momentum",
-      "Like many i suspect, my preconceived notions about Morocco were wildly inaccurate. My recent trip quickly dispelled them, revealing a nation in a dynamic, journey of rapid transformation. Morocco is far more than ancient cities, agriculture and desert landscapes; it is a developing economy driven by a vision for the future.",
       "## The Engine of Growth",
       "Morocco demonstrates a clear commitment to development, evident in several key areas:",
       "**• Infrastructure:** High-speed rail, major new road arteries, and ubiquitous utilities underscore a commitment to solid transnational infrastructure. Plus they have avoided ceding control of this development to China or anyone else.",
@@ -187,11 +185,10 @@ const ARTICLES = [
     id: "how-to-save-texas-30-bn",
     title: "How to save Texas $30 Bn",
     date: "2025-02-18",
-    image: "",
+    image: "images/how-to-save-texas-30-bn.jpg",
     teaser:
       "Roads That Fix Themselves!",
     content: [
-      "Roads That Fix Themselves!",
       "Roads often get potholes. Especially in geographies that have extremes of heat and cold. These holes make driving uncomfortable and cost a lot of money to fix. But some scientists have found a solution to help.",
       "They discovered that adding used cooking oil (like the oil used to make french fries) to the black stuff used to make roads could help them last longer. Here's how it works:",
       "When tiny cracks start to form in the road, special tiny pockets filled with cooking oil break open. The oil then fills these small cracks before they can get bigger. It's like putting a Band-Aid on a cut before it gets worse!",
@@ -208,11 +205,10 @@ const ARTICLES = [
     id: "who-is-really-looking-out-for",
     title: "Who is really looking out for low or fixed income electricity users?",
     date: "2024-04-30",
-    image: "",
+    image: "images/who-is-really-looking-out-for.jpg",
     teaser:
       "AI and crypto electricity demands are going to pressure low-income energy users. They are also encouraging coal plants to keep operating.",
     content: [
-      "AI and crypto electricity demands are going to pressure low-income energy users. They are also encouraging coal plants to keep operating.",
       "The discussion on AI focuses on the speed at which the systems are improving with some discussion around the attendant massive, swift increase in energy usage.",
       "Crypto is also using a lot of the spare capacity in generation outside of the normal patterns of peak usage and surge pricing. Translating this to economics - crypto miners depend on the “spare capacity” that was intended to make the grid more resilient ie they realize the marginal cost of the reserve margin generation. This “spare capacity” was built and paid for by the rate base which did not include either crypto or AI players but did include low-income consumers. Notwithstanding their share of bearing this cost, low-income users have no pre-emptive right to the generation they helped pay for…..",
       "The nature of AI power demand is that it is 24/7 which rules out most forms of standalone renewable generation. At least crypto can be switched on and off. I also still feel that the case for crypto is at best poorly understood and maybe not even real when you consider the cost, ie arbitraging power prices against the value of bitcoin. By the way we haven’t even remotely seen how high AI and crypto will drive power prices, multiples of where the markets are today.",
@@ -229,11 +225,10 @@ const ARTICLES = [
     id: "is-topline-growth-possible-for-retail",
     title: "Is topline growth possible for retail energy?",
     date: "2024-02-29",
-    image: "",
+    image: "images/is-topline-growth-possible-for-retail.jpg",
     teaser:
       "I recently posted an article about the risk management challenges retail energy suppliers face. The other side of this question is what can be done to increase the top line, so essential to having a robust, valuable business.",
     content: [
-      "I recently posted an article about the risk management challenges retail energy suppliers face. The other side of this question is what can be done to increase the top line, so essential to having a robust, valuable business.",
       "There are a range of ways that this can be accomplished however, every single one of them is bounded by constraints or challenges. So far, I do not believe that any player has achieved breakout top-line growth. However, here is a range of approaches that have been tried.",
       "1. **Expand Product Offerings**: Offer additional energy-related products and services such as smart home devices, energy-efficient appliances, or renewable energy options. Diversifying offerings can attract new customers and encourage existing ones to spend more. The challenge here is that none of the additional products or services are without their own suppliers, and the question becomes whether or not the retail Energy company is seen as a credible player. Renewable products do help with certain consumers however, whilst that may boost topline, it typically has not yielded large increases in the bottom line.",
       "2. **Targeted Marketing and Sales**: Use data analytics to identify and target specific customer segments with tailored marketing campaigns. Personalized promotions and offers can increase customer engagement and drive sales. For me, this is actually the most valuable way of improving the value of a business and requires a big data approach. However, it does not increase the top line, but rather the bottom line.",
@@ -254,11 +249,10 @@ const ARTICLES = [
     id: "why-the-equivalent-of-the-population",
     title: "Why the equivalent of the population of Spain will die in the next 10 years unless we do something",
     date: "2019-06-13",
-    image: "",
+    image: "images/why-the-equivalent-of-the-population.jpg",
     teaser:
       "Three billion people cook over open fires – with deadly consequences.”1 Every day women and girls all over the world hazard themselves gathering and then burning biosolids for heating and cooking with attendant deforestation. At the same time they often walk under the glare of flaring natural gas. More than 3% of the world’s natural gas is wastefully flared, 30% of wood-fuel harvesting is unsustainable, and 3+ million people die each year due to smoke inhalation from traditional cookstoves. Surely there is a better integrated solution, through a sustainable business model without the need for subsidy. Primus’s technology provides the profitable and safe answer.",
     content: [
-      "Three billion people cook over open fires – with deadly consequences.”1 Every day women and girls all over the world hazard themselves gathering and then burning biosolids for heating and cooking with attendant deforestation. At the same time they often walk under the glare of flaring natural gas. More than 3% of the world’s natural gas is wastefully flared, 30% of wood-fuel harvesting is unsustainable, and 3+ million people die each year due to smoke inhalation from traditional cookstoves. Surely there is a better integrated solution, through a sustainable business model without the need for subsidy. Primus’s technology provides the profitable and safe answer.",
       "1 Nijhuis, M. (2017) Three Billion People Cook Over Open Fires With Deadly Consequences. National Geographic. Retrieved 5 Jul 2018 from: https://www.nationalgeographic.com/photography/proof/2017/07/guatemala-cook-stoves/",
     ],
   },
@@ -267,11 +261,10 @@ const ARTICLES = [
     id: "some-thoughts-on-the-wrong-and",
     title: "Some thoughts on the wrong and right way to network",
     date: "2017-05-30",
-    image: "",
+    image: "images/some-thoughts-on-the-wrong-and.jpg",
     teaser:
       "Let me first acknowedge I have made all of the mistakes I describe in the first part of this note, the wrong way. The second part is an approach I think is more likely to engender positive interactions.",
     content: [
-      "Let me first acknowedge I have made all of the mistakes I describe in the first part of this note, the wrong way. The second part is an approach I think is more likely to engender positive interactions.",
       "Here is how most \"networking conversations\" start.",
       "First the unspoken part. I know we haven't spoken or corresponded for 2/3/4 years but....\"how are you?\" .....Read I need you now, anyway enough about you. Here is what I was thinking. I lost my job or maybe it is just under threat and I think you might be useful in rectifying that situation.",
       "Please drop everything you are doing and focus on me.",
@@ -301,11 +294,10 @@ const ARTICLES = [
     id: "why-retail-energy-is-so-fundamentally",
     title: "Why retail energy is so fundamentally unstable and in need of disruption.",
     date: "2017-05-21",
-    image: "",
+    image: "images/why-retail-energy-is-so-fundamentally.jpg",
     teaser:
       "A substantial number of factors are converging on our industry to fundamentally change the products that our consumers use and how they interact with energy. Where I struggle is how these factors will be synthesized and esp. whether they will benefit current players.",
     content: [
-      "A substantial number of factors are converging on our industry to fundamentally change the products that our consumers use and how they interact with energy. Where I struggle is how these factors will be synthesized and esp. whether they will benefit current players.",
       "I am reminded of the Dickensian novel “A Tale of Two Cities” and the quote from the start of the story- “it was the best of times, it was the worst of times….”",
       "Before we study the retail energy markets I find it instructive to consider other “verticals” that have gone before us into the light….(the nos. and X’s indicate the change in the EV over the last 5 years)",
       "-Retailing shopping- lead by Amazon 5X, aided by advertising from FB 3X",
