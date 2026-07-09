@@ -225,7 +225,7 @@ const ARTICLES = [
     id: "is-topline-growth-possible-for-retail",
     title: "Is topline growth possible for retail energy?",
     date: "2024-02-29",
-    image: "images/is-topline-growth-possible-for-retail.jpg",
+    image: "",
     teaser:
       "I recently posted an article about the risk management challenges retail energy suppliers face. The other side of this question is what can be done to increase the top line, so essential to having a robust, valuable business.",
     content: [
@@ -261,7 +261,7 @@ const ARTICLES = [
     id: "some-thoughts-on-the-wrong-and",
     title: "Some thoughts on the wrong and right way to network",
     date: "2017-05-30",
-    image: "images/some-thoughts-on-the-wrong-and.jpg",
+    image: "",
     teaser:
       "Let me first acknowedge I have made all of the mistakes I describe in the first part of this note, the wrong way. The second part is an approach I think is more likely to engender positive interactions.",
     content: [
@@ -294,7 +294,7 @@ const ARTICLES = [
     id: "why-retail-energy-is-so-fundamentally",
     title: "Why retail energy is so fundamentally unstable and in need of disruption.",
     date: "2017-05-21",
-    image: "images/why-retail-energy-is-so-fundamentally.jpg",
+    image: "",
     teaser:
       "A substantial number of factors are converging on our industry to fundamentally change the products that our consumers use and how they interact with energy. Where I struggle is how these factors will be synthesized and esp. whether they will benefit current players.",
     content: [
