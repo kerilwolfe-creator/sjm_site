@@ -52,7 +52,7 @@ function initInsightsPage() {
 
     const imageBlock = post.image
       ? `<div class="post-image"><img src="${post.image}" alt="${post.title}"></div>`
-      : `<div class="post-image">Image</div>`;
+      : "";
 
     const renderInline = (text) =>
     text.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
