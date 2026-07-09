@@ -54,7 +54,17 @@ function initInsightsPage() {
       ? `<div class="post-image"><img src="${post.image}" alt="${post.title}"></div>`
       : `<div class="post-image">Image</div>`;
 
-    const paragraphs = post.content.map((p) => `<p>${p}</p>`).join("");
+    const renderInline = (text) =>
+    text.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
+
+  const paragraphs = post.content
+    .map((p) => {
+      if (p.startsWith("## ")) {
+        return `<h3 class="section-heading">${renderInline(p.slice(3))}</h3>`;
+      }
+      return `<p>${renderInline(p)}</p>`;
+    })
+    .join("");
 
     article.innerHTML = `
       <div class="post-date">${dateLabel}</div>
