@@ -661,10 +661,18 @@ form.contact-form { display: flex; flex-direction: column; gap: 20px; }
 .category-filter {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px 22px;
-  padding: 24px 0 20px;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px 24px;
+  padding: 44px 0 20px;
   border-bottom: 1px solid var(--grey-light);
-  margin-top: 12px;
+  margin-top: 0;
+}
+
+.filter-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 22px;
 }
 
 .filter-pill {
