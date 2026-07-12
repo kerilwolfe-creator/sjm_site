@@ -78,7 +78,6 @@ const ARTICLES = [
       "## This is a forward‑looking, multi‑trillion‑dollar gamble — not a rerun of the 1990s.",
     ],
   },
-
   {
     id: "reframing-the-refugee-narrative-an-economic",
     title: "Reframing the Refugee Narrative: An Economic Imperative",
@@ -106,7 +105,6 @@ const ARTICLES = [
       "The political lens is deeply negative, but we can change the equation by replacing ideology with economics. A thoughtful, needs-based placement strategy can directly match global human capital with our deepest domestic resource gaps. By aligning the drive of the displaced with the critical needs of our workforce, we solve two systemic crises . It’s time to move past the gridlock, address our societal shortfalls, and continue America’s incredible track record of welcoming productive new immigrants—a proud legacy of which I am a first generation example.",
     ],
   },
-
   {
     id: "what-started-as-a-waistline-fix",
     title: "What started as a waistline fix is officially rewriting the U.S. economy",
@@ -144,7 +142,6 @@ const ARTICLES = [
       "#GLP1 #Macroeconomics #NationalDebt #BusinessStrategy #FutureOfRetail #HealthcareDisruption",
     ],
   },
-
   {
     id: "morocco-beyond-the-postcard-the-hidden",
     title: "Morocco Beyond the Postcard: The Hidden Engine Driving North Africa's Transformation",
@@ -180,7 +177,6 @@ const ARTICLES = [
       "https://www.youtube.com/watch?v=kgBhn3Lf958",
     ],
   },
-
   {
     id: "how-to-save-texas-30-bn",
     title: "How to save Texas $30 Bn",
@@ -200,7 +196,6 @@ const ARTICLES = [
       "#innovation#environment#leadership",
     ],
   },
-
   {
     id: "who-is-really-looking-out-for",
     title: "Who is really looking out for low or fixed income electricity users?",
@@ -220,7 +215,6 @@ const ARTICLES = [
       "It would be reassuring if we heard more significant and thoughtful discussion around this with some commitment to actually creating a resolution that won’t leave people in the dark and cold or hot. Regrettably, none of this will come for free regardless of how much politicians pretend it will be. The size of this problem is staggeringly high- trillions of investment not billions!",
     ],
   },
-
   {
     id: "is-topline-growth-possible-for-retail",
     title: "Is topline growth possible for retail energy?",
@@ -244,7 +238,6 @@ const ARTICLES = [
       "Add reaction",
     ],
   },
-
   {
     id: "why-the-equivalent-of-the-population",
     title: "Why the equivalent of the population of Spain will die in the next 10 years unless we do something",
@@ -256,7 +249,6 @@ const ARTICLES = [
       "1 Nijhuis, M. (2017) Three Billion People Cook Over Open Fires With Deadly Consequences. National Geographic. Retrieved 5 Jul 2018 from: https://www.nationalgeographic.com/photography/proof/2017/07/guatemala-cook-stoves/",
     ],
   },
-
   {
     id: "some-thoughts-on-the-wrong-and",
     title: "Some thoughts on the wrong and right way to network",
@@ -289,7 +281,6 @@ const ARTICLES = [
       "P.S. I wish I had known the foregoing before I made all of the above mistakes. The good news is most people are surprisingly forgiving. Good luck.",
     ],
   },
-
   {
     id: "why-retail-energy-is-so-fundamentally",
     title: "Why retail energy is so fundamentally unstable and in need of disruption.",
@@ -368,7 +359,6 @@ const ARTICLES = [
       "The real question: who converts that capital into durable cash flow and who loses money- lots of money?",
     ],
   },
-
   {
     id: "fifa-looks-broken-by-every-modern",
     title: "FIFA looks broken by every modern governance standard",
@@ -409,7 +399,6 @@ const ARTICLES = [
       "Where do you draw the line? Can a normal enterprise ever build this kind of identity-driven resilience, or is it reserved for sports, nations, and institutions that sit above the market?",
     ],
   },
-
   {
     id: "the-great-state-bailout-a-2026",
     title: "The Great State Bailout: A 2026 Reckoning",
@@ -434,7 +423,6 @@ const ARTICLES = [
       "• #PublicSectorctor",
     ],
   },
-
   {
     id: "the-edge-case-and-the-beginning",
     title: "The edge case and the Beginning of Hope for Humanity",
@@ -459,7 +447,6 @@ const ARTICLES = [
       "AI trades the map. The best humans trade the actual terrain.",
     ],
   },
-
   {
     id: "the-death-throes-of-a-world",
     title: "The Death Throes of a World Power",
@@ -494,7 +481,6 @@ const ARTICLES = [
       "Do it now! We must act before the lights go out.",
     ],
   },
-
   {
     id: "god-has-been-replaced-well-perhaps",
     title: "God has been replaced- well, perhaps",
@@ -538,7 +524,6 @@ const ARTICLES = [
       "• #CriticalThinking",
     ],
   },
-
   {
     id: "duolingo-pursuit-of-revenue-versus-value",
     title: "Duolingo:  Pursuit of revenue versus value",
@@ -560,7 +545,6 @@ const ARTICLES = [
       "My personal need, and I suspect almost all other actual or prospective customers, remains that I wish to be able to learn a language and use it in real-life circumstances. I’m hoping that someone will come along with an opportunity to do this, as yet the field is wide open.",
     ],
   },
-
   {
     id: "the-ai-revolution-is-hitting-a",
     title: "The AI Revolution is Hitting a Physical Wall",
@@ -585,7 +569,6 @@ const ARTICLES = [
       "Our infrastructure is out of time. Are we?",
     ],
   },
-
   {
     id: "the-grid-is-the-new-bottleneck",
     title: "The Grid is the New Bottleneck for AI",
@@ -606,7 +589,6 @@ const ARTICLES = [
       "* The Anti-Fragile Grid: There is a heavy focus on protecting energy infrastructure from hybrid warfare and cyberattacks, which are seen as increasingly likely in a fragmented global landscape.",
     ],
   },
-
   {
     id: "the-gdp-of-solitude-why-freedom",
     title: "📉 The GDP of Solitude: Why Freedom became a Synonym for Loneliness",
@@ -637,7 +619,6 @@ const ARTICLES = [
       "We are the first generation of humans who must find a reason to choose each other when we no longer have to. When companionship is no longer a necessity for survival, it becomes a revolutionary act.",
     ],
   },
-
   {
     id: "the-healthcare-jobs-myth-why-growth",
     title: "The Healthcare Jobs Myth: Why Growth is a Warning Sign, Not a Win",
@@ -662,7 +643,6 @@ const ARTICLES = [
       "If we don’t align our immigration strategy with our demographic reality, the jobs of 2026 will remain just that—titles on a spreadsheet with no one to do the work.",
     ],
   },
-
   {
     id: "the-end-of-us",
     title: "The end of us!",
@@ -683,7 +663,6 @@ const ARTICLES = [
       "I dive into the forensics of this shift in my new Substack: The End of Us.",
     ],
   },
-
   {
     id: "corporate-welfare-disguised-as-energy-policy",
     title: "Corporate Welfare Disguised as Energy Policy?",
@@ -716,7 +695,6 @@ const ARTICLES = [
       "What’s your take? Pragmatic energy policy or egregious corporate welfare?",
     ],
   },
-
   {
     id: "every-single-person-in-cincinnati-just",
     title: "# Every Single Person in Cincinnati Just Died—Imagine Our Response",
@@ -742,7 +720,6 @@ const ARTICLES = [
       "**Source:** CDC National Center for Health Statistics, Synthetic Opioid-Involved Deaths (2019-2023)",
     ],
   },
-
   {
     id: "why-duolingo-falls-short-a-users",
     title: "Why Duolingo Falls Short: A User’s Perspective",
@@ -770,7 +747,6 @@ const ARTICLES = [
       "(Dedicated to my friend Adam.)",
     ],
   },
-
   {
     id: "more-about-the-drivers-behind-loneliness",
     title: "More about the drivers behind loneliness",
@@ -785,7 +761,6 @@ const ARTICLES = [
       "By Ted Gioia",
     ],
   },
-
   {
     id: "screaming-into-the-abyss-where-are",
     title: "Screaming into the abyss!  Where are all the workers?",
@@ -800,7 +775,6 @@ const ARTICLES = [
       "Failure to recognize this causes human suffering and economically suboptimal results. Surely this matters more than having your particular cause, appear to have primacy.  The fight is not over which political party wins but how do we help those who are losing?",
     ],
   },
-
   {
     id: "the-inexcusable-cost-of-imperfection-why",
     title: "The Inexcusable Cost of Imperfection: Why We Must Accelerate the Autonomous Revolution",
@@ -821,7 +795,6 @@ const ARTICLES = [
       "We must demand an end to this dangerous regulatory drag and accelerate the adoption of autonomous technology to save lives today.",
     ],
   },
-
   {
     id: "does-this-look-like-5-stars",
     title: "Does this look like 5 stars to you?",
@@ -853,7 +826,6 @@ const ARTICLES = [
       "The best feedback is short and actually focuses on generating improvements not meaningless or unwarranted congratulations such as 5 stars.",
     ],
   },
-
   {
     id: "leading-a-successful-business-turnaround",
     title: "Leading a Successful Business Turnaround:",
@@ -872,7 +844,6 @@ const ARTICLES = [
       "Remember to reward people for their results, not just how long they've been around. Does this resonate with your experience?​​​​​​​​​​​​​​​​",
     ],
   },
-
   {
     id: "it-is-happening-science-fiction-in",
     title: "It is happening- science fiction in our time right now!",
@@ -888,7 +859,6 @@ const ARTICLES = [
       "In a world racing toward technological advancement, perhaps our greatest challenge isn't just what we can build, but how we choose to use it. It will be used if it is developed.  What do you think about this double-edged sword of progress?",
     ],
   },
-
   {
     id: "alexander-the-great-and-the-gordian",
     title: "Alexander the Great and the Gordian Knot",
@@ -906,7 +876,6 @@ const ARTICLES = [
       "What do you think? Does Alexander's approach to the Gordian knot represent brilliant innovation or dangerous precedent and will it work today?",
     ],
   },
-
   {
     id: "a-sunset-or-sunrise",
     title: "A sunset or sunrise?",
@@ -927,7 +896,6 @@ const ARTICLES = [
       "As business leaders and professionals, we're navigating these intersecting challenges without a clear roadmap. The key to success may lie not in predicting outcomes, but in building adaptable organizations capable of pivoting as these trends evolve. What's your take on these paradoxes? How is your industry responding to these overlapping challenges? #Economics #BusinessTrends #AI #Innovation #ConsumerBehavior #EconomicTrends",
     ],
   },
-
   {
     id: "car-control-systems",
     title: "Car control systems",
@@ -940,7 +908,6 @@ const ARTICLES = [
       "The redux of what’s happening is that many people choose to keep their old cars rather than trade up to new one and have that implicit foisted complexity.",
     ],
   },
-
   {
     id: "new-ways-of-supplying-energy-to",
     title: "New ways of supplying energy to supplement traditional sources",
@@ -955,7 +922,6 @@ const ARTICLES = [
       "See the comment section below that has the link to the original article that’s sparked my interest.",
     ],
   },
-
   {
     id: "part-3-of-the-article-on",
     title: "Part 3 of the article on loneliness in our society today",
@@ -992,15 +958,15 @@ const ARTICLES = [
       "The future of work isn't just about productivity and flexibility—it's about creating meaningful human connection in an increasingly digital world. The organizations that recognize and address this now will be the ones that thrive in the decades to come.",
     ],
   },
-
   {
     id: "following-on-with-part-2-of",
-    title: "Following on with Part 2 of the 3 part series of commentary on the loneliness crisis we are exper...",
+    title: "The Loneliness Crisis, Part 2: The Socioeconomic Divide",
     date: "2025-01-20",
     image: "",
     teaser:
-      "Part 2: The Socioeconomic Divide: How Class Shapes Connection",
+      "Following on with part 2 of the 3-part series of commentary on the loneliness crisis we are experiencing.",
     content: [
+      "Part 2: The Socioeconomic Divide: How Class Shapes Connection",
       "The loneliness epidemic isn't affecting everyone equally. Our research reveals a complex relationship between socioeconomic status and social isolation that demands attention from business leaders and policymakers alike.",
       "## The Class Connection",
       "## Lower Income Workers:",
@@ -1029,15 +995,15 @@ const ARTICLES = [
       "Women experience more anxiety-related isolation",
     ],
   },
-
   {
     id: "i-know-this-is-shameless-use",
-    title: "I know this is shameless use of Clickbait however, I hope you will read on about what I believe t...",
+    title: "The Hidden Pandemic: A 3-Part Series on Loneliness in Modern Society",
     date: "2025-01-15",
     image: "",
     teaser:
-      "The Hidden Pandemic: A 3-Part Series on Loneliness in Modern Society",
+      "I know this is shameless use of clickbait, however I hope you will read on about what I believe to be a massive, invisible crisis that many societies are facing.",
     content: [
+      "The Hidden Pandemic: A 3-Part Series on Loneliness in Modern Society",
       "Part 1: The Modern Loneliness Crisis: Why Your Employees Are Suffering in Silence",
       "The next major workplace crisis isn't burnout—it's loneliness. While we've optimized our organizations for efficiency and remote work, we're facing an unprecedented epidemic of social isolation that's costing businesses billions in healthcare costs and lost productivity.",
       "The numbers are startling: One in three adults report feeling lonely frequently, with young professionals aged 18-30 experiencing the highest rates—higher than even elderly populations. This isn't just a personal challenge; it's a business crisis hiding in plain sight.",
@@ -1060,7 +1026,6 @@ const ARTICLES = [
       "The workplace that once served as a primary source of social connection is now, ironically, often contributing to isolation.  Two more sections to follow.",
     ],
   },
-
   {
     id: "new-ways-of-enlarging-the-energy",
     title: "New ways of enlarging the energy supply envelope:",
@@ -1076,7 +1041,6 @@ const ARTICLES = [
       "https://lnkd.in/erxvnysz",
     ],
   },
-
   {
     id: "almost-disaster-turned-into-a-business",
     title: "Almost disaster turned into a business opportunity!",
@@ -1091,7 +1055,6 @@ const ARTICLES = [
       "The Microsoft-Constellation deal is a power purchase agreement, commonly used for renewables projects. When Constellation restarts this reactor and delivers power to the grid, Microsoft will buy electricity for 20 years at a price that more than covers Constellation's estimated $1.6 billion cost to restart.”",
     ],
   },
-
   {
     id: "20-of-nuclear-plants-are-sited",
     title: "20% of nuclear plants are sited on geological fault lines!",
@@ -1136,7 +1099,6 @@ const ARTICLES = [
       "As we face the dual challenges of meeting growing energy demands and addressing climate change, a balanced approach to power generation is crucial. This strategy should incorporate renewables, cleaner fossil fuel technologies, and advanced nuclear power to ensure a reliable, affordable, and environmentally responsible energy future.",
     ],
   },
-
   {
     id: "the-electric-vehicle-revolution-promises-challenges",
     title: "The Electric Vehicle Revolution: Promises, Challenges, and Market Realities",
@@ -1193,7 +1155,6 @@ const ARTICLES = [
       "https://lnkd.in/gbGf2h9q",
     ],
   },
-
   {
     id: "rethinking-outdated-industries-usps-and-utilities",
     title: "# Rethinking Outdated Industries: USPS and Utilities",
@@ -1216,7 +1177,6 @@ const ARTICLES = [
       "I welcome suggestions to improve these ideas or others proposing even more innovative solutions. The goal is to spark a conversation about modernizing these critical services for the 21st century.",
     ],
   },
-
   {
     id: "perspective-shift",
     title: "Perspective Shift:",
@@ -1243,7 +1203,6 @@ const ARTICLES = [
       "How might it reshape our understanding of career paths and life satisfaction?",
     ],
   },
-
   {
     id: "lead-like-a-roman-emperor",
     title: "Lead like a Roman Emperor:",
@@ -1267,7 +1226,6 @@ const ARTICLES = [
       "Despite the passage of time since his life, these principles are still relevant and applicable today. You do not need a horse though....",
     ],
   },
-
   {
     id: "the-looming-crisis-in-americas-electrical",
     title: "The Looming Crisis in America's Electrical Infrastructure",
@@ -1312,7 +1270,6 @@ const ARTICLES = [
       "8. Future Projections: Include projections for electricity demand growth and how that will further strain the existing infrastructure.",
     ],
   },
-
   {
     id: "learning-from-others-improving-houstons-electrical",
     title: "Learning from Others: Improving Houston's Electrical Infrastructure",
@@ -1352,7 +1309,6 @@ const ARTICLES = [
       "By learning from others and addressing our structural challenges, we can work towards a more resilient and reliable electrical infrastructure for Houston.",
     ],
   },
-
   {
     id: "reflections-on-houstons-post-hurricane-beryl",
     title: "Reflections on Houston's Post-Hurricane Beryl Experience",
@@ -1380,19 +1336,18 @@ const ARTICLES = [
       "Crucially, fixing these infrastructure issues will require years of work and substantial investment. While much of the climate change debate focuses on power generation, Beryl has shown us the critical need to address our antiquated distribution and transmission systems.  Meanwhile, our population gets so much more sensitive to this by virtue of aging and poor health.",
     ],
   },
-
   {
     id: "here-is-some-supporting-data-with",
-    title: "Here is some supporting data with respect to the cost of getting to net zero and increasing the r...",
+    title: "The Cost of Getting to Net Zero and a More Resilient Grid",
     date: "2024-07-15",
     image: "",
     teaser:
-      "From Bloomberg: The climate crisis exposes electricity networks to flash floods ripping down transmission towers, droughts drying up hydro reservoirs and demand spikes from cooling during heatwaves. Expanding and upgrading power grids will cost about $24.1 trillion to meet net-zero goals by 2050, outpacing the investment needed in renewable-power capacity, according to BloombergNEF. Because of their vast areas and high energy use, the US and China face the biggest bills.",
+      "Here is some supporting data with respect to the cost of getting to net zero and increasing the resiliency of the worldwide grid.",
     content: [
+      "From Bloomberg: The climate crisis exposes electricity networks to flash floods ripping down transmission towers, droughts drying up hydro reservoirs and demand spikes from cooling during heatwaves. Expanding and upgrading power grids will cost about $24.1 trillion to meet net-zero goals by 2050, outpacing the investment needed in renewable-power capacity, according to BloombergNEF. Because of their vast areas and high energy use, the US and China face the biggest bills.",
       "Fallen transmission towers in the aftermath of a storm in Texas in May. Photographer: Melissa Phillip/Houston Chronicle/Getty Images",
     ],
   },
-
   {
     id: "texas-power-grid-challenges-from-distribution",
     title: "Texas Power Grid Challenges: From Distribution Failures to Workforce Shortages",
@@ -1410,7 +1365,6 @@ const ARTICLES = [
       "Conclusion: Addressing Texas's power infrastructure challenges requires a multifaceted approach, including significant investment, workforce development, and potentially immigration reform. As we navigate these issues, it's crucial to recognize and appreciate the hard work of the men and women who maintain our power systems under challenging conditions.",
     ],
   },
-
   {
     id: "ai-is-about-to-take-our",
     title: "AI is about to take our power!",
@@ -1437,7 +1391,6 @@ const ARTICLES = [
       "Another data point is that the self-same companies emissions have risen by 50% over the last few years.   Notwithstanding this fact these companies still have, what I consider to be unrealistic net zero targets, especially when set against their steeply increasing emissions growth.",
     ],
   },
-
   {
     id: "httpslnkdingfesnf5p",
     title: "https://lnkd.in/gFesNF5p",
@@ -1466,7 +1419,6 @@ const ARTICLES = [
       "Conclusion: The cumulative effect of inflation on household budgets paints a stark picture of economic stress for many Americans. As we approach the election, voters are acutely aware of these pressures. The solution, however, may not lie in increased government spending or taxation. Instead, we need to reconsider how we measure and address inflation, focusing on the long-term, real-world impact on families rather than short-term statistical changes.",
     ],
   },
-
   {
     id: "the-ev-story-and-why-it",
     title: "The EV story and why it hasn’t ignited as much change as expected",
@@ -1488,7 +1440,6 @@ const ARTICLES = [
       "Here is the WSJ journal article I mentioned previously.",
     ],
   },
-
   {
     id: "practical-immediate-suggestions-of-help-for",
     title: "Practical immediate suggestions of help for low income households struggling with bills",
@@ -1508,7 +1459,6 @@ const ARTICLES = [
       "Furthermore, these improvements could be allied with local skills programs, allowing low-skilled residents, including those with physical limitations or health conditions like obesity or diabetes, to gain practical experience through cooperative efforts.",
     ],
   },
-
   {
     id: "risk-mitigation-in-the-retail-energy",
     title: "Risk mitigation in the retail energy world",
@@ -1526,7 +1476,6 @@ const ARTICLES = [
       "Against this backdrop, many political players promote a reduction in global warming and reduced fossil fuel use. The risks in our market and world have never been more extreme.",
     ],
   },
-
   {
     id: "understanding-the-mindset-of-our-energy",
     title: "Understanding the mindset of our energy consumers",
@@ -1545,7 +1494,6 @@ const ARTICLES = [
       "We must do better. I am committed to that goal.",
     ],
   },
-
   {
     id: "on-a-lighter-note",
     title: "On a lighter note…",
@@ -1562,7 +1510,6 @@ const ARTICLES = [
       "https://lnkd.in/gtxYp-8h",
     ],
   },
-
   {
     id: "a-theory-for-your-consideration-spike",
     title: "A theory for your consideration- spike strength and it’s corollary, spike weakness",
@@ -1580,15 +1527,15 @@ const ARTICLES = [
       "Once this approach is adopted it becomes self reinforcing and a powerful way of helping folks who might never have felt valued become confident contributors valued for their strength and impact versus not being a decathlete.",
     ],
   },
-
   {
     id: "helping-do-better-with-what-we",
-    title: "Helping do better with what we have................but first, why is our company called Firefly E...",
+    title: "An Update on Firefly Energy Solutions",
     date: "2023-07-11",
     image: "",
     teaser:
-      "Firefly Energy Solutions (FES) was founded almost two years ago and was funded and began operations approximately 1 year ago.",
+      "Helping do better with what we have — but first, why is our company called Firefly Energy Solutions? The firefly's light is the most efficient light source, bar none. Here is an update on where we are as a business.",
     content: [
+      "Firefly Energy Solutions (FES) was founded almost two years ago and was funded and began operations approximately 1 year ago.",
       "FES is addressing the big data needs in the energy space as a SaaS business. Without going into the details the gas and power business has suffered from legacy IT systems in the most volatile commodity markets in the world which are increasingly supported by grid and distribution systems that lack the capacity to respond to interruptions whether due to weather events (also increasingly severe and frequent) or demand spikes.",
       "This is further complicated by moving from fossil fuel, large generation assets to renewables. This last coupled with smart meters or interval meters has increased the data available by orders of magnitude. As if this was not enough micro weather data, census data, and Google Earth offer even more data to improve demand forecasting.",
       "The competition is limited and competes on price rather than accuracy or functionality. This is the underlying FES approach. Our team has unparalleled depth and competence in the vertical, tech, and deep learning.",
@@ -1600,15 +1547,15 @@ const ARTICLES = [
       "We now have a number of clients and expect to add several more by the end of the summer. Our ARR is growing swiftly and more details can be provided on enquiry. We have and are constantly bringing new clients on, on multiyear contracts.  #power #data #renewables #energy",
     ],
   },
-
   {
     id: "climate-change-and-the-world-energy",
-    title: "Climate change and the world energy balance are important topics that continue to be quite litera...",
+    title: "Climate Change and the World Energy Balance",
     date: "2023-06-29",
     image: "",
     teaser:
-      "One rising area in this discussion is that countries with identifiable historic industrial revolutions have created energy problems for developing nations. These concerns are becoming much more pressing today, and developing nations are asking for financial help from the countries that went before. However, these industrialized countries have problems that place other countries' energy needs and climate change lower on their priority lists. These include issues like sky-high levels of national debt and drug-related deaths in the millions. This leaves the discussion between developing nations and industrialized nations unlikely to be meaningfully addressed any time soon.",
+      "Climate change and the world energy balance are important topics that continue to be quite literally hot topics across the world. Whether you are a small country, a large country, developing or developed, energy matters to your population and economy.",
     content: [
+      "One rising area in this discussion is that countries with identifiable historic industrial revolutions have created energy problems for developing nations. These concerns are becoming much more pressing today, and developing nations are asking for financial help from the countries that went before. However, these industrialized countries have problems that place other countries' energy needs and climate change lower on their priority lists. These include issues like sky-high levels of national debt and drug-related deaths in the millions. This leaves the discussion between developing nations and industrialized nations unlikely to be meaningfully addressed any time soon.",
       "Here is one example that might accelerate change.  A potentially interesting (partial) solution that would bring this back to a priority agenda for all: countries with hot, sunny desert areas, for example, Africa, could create large solar power stations and sell the generated electricity to countries where solar power is less efficient and fossil fuel plant dominate, like Scotland, my birthplace.  This also allows the low carbon emitters to leapfrog old dirty technologies as they have done with cell phones v land lines.",
       "These sorts of mutually beneficial solutions can reduce fossil fuel emissions and benefit both sides of the transaction.",
       "Instead of politicians talking about the issue, we need engineers, bankers, and industrialists to start finding workable solutions on an economic global scale!",
@@ -1617,7 +1564,6 @@ const ARTICLES = [
       "https://lnkd.in/gqyfCPSe.",
     ],
   },
-
   {
     id: "nacd-tricity-chapter",
     title: "NACD TriCity Chapter",
@@ -1634,15 +1580,15 @@ const ARTICLES = [
       "There has never been a more important time for board members to drive impact with the organizations they serve.",
     ],
   },
-
   {
     id: "in-my-personal-experience-the-body",
-    title: "In my personal experience, the body of work surrounding great leadership has so much written on i...",
+    title: "The Two Most Important Qualities of a Leader",
     date: "2023-05-23",
     image: "",
     teaser:
-      "Here are my two cents-- coming from my real-world experiences leading in very tough circumstances--for example: leading 7 fast-paced successful company turnarounds. I have led teams from a few people in aggressive growth startups to companies dispersed all over North America and globally with thousands of staff and employees.",
+      "In my personal experience, the body of work surrounding great leadership has so much written on it, and yet so little of real value. There is so much process with little direction on how to apply it in real life, difficult circumstances, with challenging people and challenging environments.",
     content: [
+      "Here are my two cents-- coming from my real-world experiences leading in very tough circumstances--for example: leading 7 fast-paced successful company turnarounds. I have led teams from a few people in aggressive growth startups to companies dispersed all over North America and globally with thousands of staff and employees.",
       "So..... what are the two most important qualities of a leader? I have asked this question of hundreds if not thousands of people.",
       "Many people answer as follows: I want an....open door policy, people person, inclusive person, smart and capable, etc.  All helpful ideas, but none of these are at the top of my ranking.",
       "## My top two traits are these:",
@@ -1653,22 +1599,21 @@ const ARTICLES = [
       "Everyone is the hero of their story. We are not the cast in the leader's journey, however gifted they may be. The servant mindset is often discussed, but rarely, truly practiced!",
     ],
   },
-
   {
     id: "this-morning-an-interesting-article-was",
-    title: "This morning, an interesting article was posted about by a major shareholder of NRG describing th...",
+    title: "What NRG Should Focus On: A Response to Elliott's Critique",
     date: "2023-05-15",
     image: "",
     teaser:
-      "Elliott believes that once again NRG has lost focus as they have in the past. One example was trying to promote cross-selling between mismatched businesses, similar to my experience at Direct Energy. This approach is seen as flawed for several reasons. Firstly, the cost of buying the other business, the product price points, competitors, and geographical factors differed greatly between the businesses.",
+      "This morning, an interesting article was posted about by a major shareholder of NRG describing their criticism of NRG's strategy and financial performance.",
     content: [
+      "Elliott believes that once again NRG has lost focus as they have in the past. One example was trying to promote cross-selling between mismatched businesses, similar to my experience at Direct Energy. This approach is seen as flawed for several reasons. Firstly, the cost of buying the other business, the product price points, competitors, and geographical factors differed greatly between the businesses.",
       "In my opinion, NRG should focus on operational excellence and cost reduction for their cash cow, legacy energy business. Currently, their undifferentiated product is only bought in quantities that consumers try to minimize. Additionally, their acquisition-heavy, business model leads to excessive debt and high consumer prices.  Their legacy tech systems also lack the ability to handle big data solutions.",
       "This unsustainable approach creates a situation where NRG will eventually lose the confidence of more of its customers and its shareholders.",
       "They must concentrate on improving operational efficiency to better serve customers and benefit shareholders. Examples of this should be a large reduction in overhead eg releasing large downtown buildings in a world of WFH, large hierarchical organizations with too many layers, and vanity projects like stadium naming rights. NRG is not the only roll-up organization that has this problem. Many energy utilities have this similar problem ie not focusing on balancing shareholder v customer interest appropriately.",
       "At some point, this will result in major, fundamental change in this industry especially when combined with the needs of climate change and renewables.",
     ],
   },
-
   {
     id: "where-did-all-the-people-go",
     title: "Where did all the people go?",
@@ -1692,7 +1637,6 @@ const ARTICLES = [
       "Failure to grasp this challenge will result in massive investment in robotics and further automation with the concomitant likely, permanent loss of meaningful employment for 11 million people wherever they may or not come from.",
     ],
   },
-
   {
     id: "leading-well-involves-setting-appropriate-objectives",
     title: "Leading well involves setting appropriate objectives from day one",
@@ -1707,15 +1651,15 @@ const ARTICLES = [
       "https://lnkd.in/eSM9s_87",
     ],
   },
-
   {
     id: "will-you-help-i-am-sitting",
-    title: "Will you help?   I am sitting literally on a beach thinking about the forthcoming Electricity Mar...",
+    title: "The Major Challenges Facing Retail Energy Companies",
     date: "2022-08-11",
     image: "",
     teaser:
-      "So in no particular order (and probably missing a few), climate change, more renewables, consolidation of traditional players, the rising cost of credit, much higher and more volatile commodity prices plus at best a confused and ineffective Federal and State regulatory environment, increased attempts at cracking the digital “code” plus the proliferation of publicly available data to do a better job of forecasting demand.",
+      "Will you help? I am sitting literally on a beach thinking about the forthcoming Electricity Marketing Conference in NY, and the panel I've been asked to moderate on the major challenges retail energy companies are facing.",
     content: [
+      "So in no particular order (and probably missing a few), climate change, more renewables, consolidation of traditional players, the rising cost of credit, much higher and more volatile commodity prices plus at best a confused and ineffective Federal and State regulatory environment, increased attempts at cracking the digital “code” plus the proliferation of publicly available data to do a better job of forecasting demand.",
       "Then, on top of that an economy that is strong and further aided by additional demand created by an increasing population at least in places like Texas. Also, consumers are moving more and more to experiences rather than goods which again, pressures power demand. And then, of course, we have Russia, Ukraine, and China all topped off with Covid behavior changes.",
       "Thinking about this range of factors I wanted to help my fellow panelists address the audience's desires and interests. Below is a link to a quick survey to hear your views on what we need to focus on. It is impossible to do justice to all of these factors in less than an hour. So help me pick 5 or so where we can focus in NY and really dig in and help make a real difference to the debate.",
       "Please take a minute to provide your feedback.",
@@ -1723,7 +1667,6 @@ const ARTICLES = [
       "https://lnkd.in/g764egfG",
     ],
   },
-
   {
     id: "part-b-of-how-to-lead",
     title: "Part B of how to lead in challenging times",
@@ -1739,15 +1682,15 @@ const ARTICLES = [
       "Although challenging and hard, being part of an aligned team is one of the most rewarding experiences I have had in life.  Feel free to shamelessly plagiarize this methodology and if I can help you feel free to reach out sjmurray60@gmail.com",
     ],
   },
-
   {
     id: "a-simple-formula-to-lead-through",
-    title: "A simple formula to lead through difficult times (due to character limits I have split this post...",
+    title: "A Simple Formula to Lead Through Difficult Times (Part A)",
     date: "2022-07-13",
     image: "",
     teaser:
-      "I have developed a simple mnemonic to help me manage through the stress and the fast-paced work associated with doing 7 turnarounds in the last 15 years.  It starts with asking “what is the essential trait of leadership?”  No-one I have asked this of, and there have been many, has ever given me the answer I desired but mostly provided the second or third aspect.",
+      "A simple formula to lead through difficult times (due to character limits, I have split this post into Part A and Part B).",
     content: [
+      "I have developed a simple mnemonic to help me manage through the stress and the fast-paced work associated with doing 7 turnarounds in the last 15 years.  It starts with asking “what is the essential trait of leadership?”  No-one I have asked this of, and there have been many, has ever given me the answer I desired but mostly provided the second or third aspect.",
       "The first, essential trait- a necessary but not sufficient condition -is to know where you want to get to…. The second trait is a “duty of care” ie everyone on the team matters and deserves to be  treated with respect even maybe even especially when they have to get out of the lifeboat.",
       "Too often seniority is accompanied by hubris and the inability to listen.   Hard to get people to follow you if they think they will be treated as cannon fodder in the interest of the leader’s career.  The current high-profile example is Putin and war in the Ukraine.",
       "The mnemonic is the 5 P’s and the direction is the first P i.e. strategy, Purpose.  There is some force fitting here or the mnemonic doesn’t work.  Please bear with me, it will all hang together as we develop the thesis.",
@@ -1759,7 +1702,6 @@ const ARTICLES = [
       "See Part B for the rest of post",
     ],
   },
-
   {
     id: "the-esg-case-for-primus-green",
     title: "The ESG case for Primus Green Energy technology",
@@ -1779,9 +1721,7 @@ const ARTICLES = [
       "•	Importantly we will also play a part in creating a larger pool of fuel oil that is compliant with IMO 2020 regs.",
       "•	We can also make methanol which is highly biodegradable.  To illustrate if the Exxon Valdez had been filled with methanol the problem would have lasted less than a day and affected the environment so much less than the crude oil spill.",
       "-reasons to be proud of working in this arena.",
-      "Interested in hearing other perspectives on this topic.",
-      "## Best,",
-      "Steven",
+      "Interested in hearing other perspectives on this topic."
     ],
   },
 ];
