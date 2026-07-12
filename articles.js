@@ -1721,7 +1721,9 @@ const ARTICLES = [
       "•	Importantly we will also play a part in creating a larger pool of fuel oil that is compliant with IMO 2020 regs.",
       "•	We can also make methanol which is highly biodegradable.  To illustrate if the Exxon Valdez had been filled with methanol the problem would have lasted less than a day and affected the environment so much less than the crude oil spill.",
       "-reasons to be proud of working in this arena.",
-      "Interested in hearing other perspectives on this topic."
+      "Interested in hearing other perspectives on this topic.",
+      "## Best,",
+      "Steven",
     ],
   },
 ];
