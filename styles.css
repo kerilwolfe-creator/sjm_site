@@ -17,6 +17,14 @@
   --gutter: 48px;
 }
 
+@media (max-width: 780px) {
+  :root { --gutter: 28px; }
+}
+
+@media (max-width: 480px) {
+  :root { --gutter: 20px; }
+}
+
 * { box-sizing: border-box; }
 
 html { scroll-behavior: smooth; }
@@ -112,7 +120,6 @@ nav.primary-nav a[aria-current="page"] {
 }
 
 @media (max-width: 480px) {
-  .header-inner { padding-left: 20px; padding-right: 20px; }
   .brand { letter-spacing: 0.04em; }
   nav.primary-nav ul { gap: 18px 22px; }
 }
@@ -360,22 +367,12 @@ article.post h2 {
 
 article.post .post-image {
   width: 100%;
-  aspect-ratio: 16 / 9;
-  background: #efefec;
   border: 1px solid var(--grey-light);
   margin-bottom: 22px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--grey);
-  font-family: var(--display);
-  font-size: 0.72rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
   overflow: hidden;
 }
 
-article.post .post-image img { width: 100%; height: 100%; object-fit: cover; display: block; }
+article.post .post-image img { width: 100%; height: auto; display: block; }
 
 article.post .teaser {
   font-size: 1.15rem;
@@ -405,7 +402,7 @@ article.post .content h3.section-heading {
 article.post .content h3.section-heading:first-child { margin-top: 0; }
 
 @media (max-width: 860px) {
-  .insights-layout { grid-template-columns: 1fr; gap: 36px; }
+  .insights-layout { grid-template-columns: 1fr; gap: 36px; padding: 40px 0 64px; }
   .insights-sidebar {
     position: static;
     border-right: none;
@@ -415,6 +412,14 @@ article.post .content h3.section-heading:first-child { margin-top: 0; }
   }
   .toc-list { display: flex; overflow-x: auto; gap: 22px; }
   .toc-list li { margin-bottom: 0; flex: 0 0 auto; max-width: 220px; }
+  article.post { padding-bottom: 40px; margin-bottom: 40px; }
+  article.post h2 { font-size: clamp(1.4rem, 5.5vw, 1.9rem); }
+}
+
+@media (max-width: 480px) {
+  .insights-layout { padding: 28px 0 48px; gap: 28px; }
+  article.post { padding-bottom: 32px; margin-bottom: 32px; }
+  article.post .teaser { font-size: 1.05rem; }
 }
 
 /* ---------- About page ---------- */
