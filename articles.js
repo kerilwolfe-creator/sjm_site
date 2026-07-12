@@ -6,14 +6,17 @@
    automatically (most recent first).
 
    FIELDS
-   id      — unique, no spaces (used as the anchor link, e.g. #inflation-outlook)
-   title   — post title
-   date    — "YYYY-MM-DD" (works fine for posts written before the site existed)
-   image   — path to an image, or leave "" to show a plain placeholder block
-   teaser  — 1–2 sentence summary shown under the title
-   content — array of paragraph strings (each string = one paragraph)
-             Start a string with "## " to render it as a bold section
-             heading instead of a normal paragraph — e.g. "## The Bottom Line"
+   id         — unique, no spaces (used as the anchor link, e.g. #inflation-outlook)
+   title      — post title
+   date       — "YYYY-MM-DD" (works fine for posts written before the site existed)
+   image      — path to an image, or leave "" to show a plain placeholder block
+   categories — array of category keys this post belongs to. A post can carry
+                more than one. Valid keys: "energy", "macro", "leadership", "society"
+                (see CATEGORY_LABELS in script.js for their display names)
+   teaser     — 1–2 sentence summary shown under the title
+   content    — array of paragraph strings (each string = one paragraph)
+                Start a string with "## " to render it as a bold section
+                heading instead of a normal paragraph — e.g. "## The Bottom Line"
    ========================================================================= */
 
 const ARTICLES = [
@@ -22,6 +25,7 @@ const ARTICLES = [
     title: "The Energy Hierarchy: How High-Margin Capital is Colonizing the Grid",
     date: "2026-06-18",
     image: "images/grid_hierarchy_image.png",
+    categories: ["energy", "macro"],
     teaser:
       "We like to think of the electrical grid as the ultimate public utility—a shared, democratic piece of infrastructure delivering the same electron to a high-tech facility as it does to a residential home. That version of the grid is dead.",
     content: [
@@ -51,6 +55,7 @@ const ARTICLES = [
     title: "The AI Power Boom Is Racing Toward a Multi‑Trillion‑Dollar Wall",
     date: "2026-06-30",
     image: "images/the-ai-power-boom-is-racing.jpg",
+    categories: ["energy", "macro"],
     teaser:
       "Tech hyperscalers and utilities have already committed **hundreds of billions** to data centers and **$1.4 trillion** to grid expansion. If AI demand plateaus, those gigawatts don’t disappear - they become a multi‑trillion‑dollar liability split between long Power Purchase Agreements (PPAs) and stranded grid investments. This is where the power goes - and who gets stuck with the bill.",
     content: [
@@ -83,6 +88,7 @@ const ARTICLES = [
     title: "Reframing the Refugee Narrative: An Economic Imperative",
     date: "2026-06-16",
     image: "images/reframing-the-refugee-narrative-an-economic.jpg",
+    categories: ["society", "macro"],
     teaser:
       "Framing 120 million displaced people in the world solely as a humanitarian crisis isn't working anymore.",
     content: [
@@ -110,6 +116,7 @@ const ARTICLES = [
     title: "What started as a waistline fix is officially rewriting the U.S. economy",
     date: "2026-06-09",
     image: "images/what-started-as-a-waistline-fix.jpg",
+    categories: ["macro"],
     teaser:
       "What began as a breakthrough for Type 2 diabetes has become the defining economic disruption of the decade - and we're only in the early innings.",
     content: [
@@ -147,6 +154,7 @@ const ARTICLES = [
     title: "Morocco Beyond the Postcard: The Hidden Engine Driving North Africa's Transformation",
     date: "2025-12-18",
     image: "images/morocco-beyond-the-postcard-the-hidden.jpg",
+    categories: ["macro", "society"],
     teaser:
       "Like many i suspect, my preconceived notions about Morocco were wildly inaccurate. My recent trip quickly dispelled them, revealing a nation in a dynamic, journey of rapid transformation. Morocco is far more than ancient cities, agriculture and desert landscapes; it is a developing economy driven by a vision for the future.",
     content: [
@@ -182,6 +190,7 @@ const ARTICLES = [
     title: "How to save Texas $30 Bn",
     date: "2025-02-18",
     image: "images/how-to-save-texas-30-bn.jpg",
+    categories: ["energy"],
     teaser:
       "Roads That Fix Themselves!",
     content: [
@@ -201,6 +210,7 @@ const ARTICLES = [
     title: "Who is really looking out for low or fixed income electricity users?",
     date: "2024-04-30",
     image: "images/who-is-really-looking-out-for.jpg",
+    categories: ["energy", "society"],
     teaser:
       "AI and crypto electricity demands are going to pressure low-income energy users. They are also encouraging coal plants to keep operating.",
     content: [
@@ -220,6 +230,7 @@ const ARTICLES = [
     title: "Is topline growth possible for retail energy?",
     date: "2024-02-29",
     image: "images/is-topline-growth-possible-for-retail.jpg",
+    categories: ["energy"],
     teaser:
       "I recently posted an article about the risk management challenges retail energy suppliers face. The other side of this question is what can be done to increase the top line, so essential to having a robust, valuable business.",
     content: [
@@ -243,6 +254,7 @@ const ARTICLES = [
     title: "Why the equivalent of the population of Spain will die in the next 10 years unless we do something",
     date: "2019-06-13",
     image: "images/why-the-equivalent-of-the-population.jpg",
+    categories: ["energy", "society"],
     teaser:
       "Three billion people cook over open fires – with deadly consequences.”1 Every day women and girls all over the world hazard themselves gathering and then burning biosolids for heating and cooking with attendant deforestation. At the same time they often walk under the glare of flaring natural gas. More than 3% of the world’s natural gas is wastefully flared, 30% of wood-fuel harvesting is unsustainable, and 3+ million people die each year due to smoke inhalation from traditional cookstoves. Surely there is a better integrated solution, through a sustainable business model without the need for subsidy. Primus’s technology provides the profitable and safe answer.",
     content: [
@@ -254,6 +266,7 @@ const ARTICLES = [
     title: "Some thoughts on the wrong and right way to network",
     date: "2017-05-30",
     image: "images/some-thoughts-on-the-wrong-and.jpg",
+    categories: ["leadership"],
     teaser:
       "Let me first acknowedge I have made all of the mistakes I describe in the first part of this note, the wrong way. The second part is an approach I think is more likely to engender positive interactions.",
     content: [
@@ -286,6 +299,7 @@ const ARTICLES = [
     title: "Why retail energy is so fundamentally unstable and in need of disruption.",
     date: "2017-05-21",
     image: "images/why-retail-energy-is-so-fundamentally.jpg",
+    categories: ["energy"],
     teaser:
       "A substantial number of factors are converging on our industry to fundamentally change the products that our consumers use and how they interact with energy. Where I struggle is how these factors will be synthesized and esp. whether they will benefit current players.",
     content: [
@@ -334,6 +348,7 @@ const ARTICLES = [
     title: "The reality of cash flow is catching up with AI and data center mania",
     date: "2026-07-08",
     image: "",
+    categories: ["energy", "macro"],
     teaser:
       "The AI Infrastructure Boom Isn’t Tulip Mania, which was an early 1600 phenomena in Amsterdam where tulip bulbs underlay massive speculation and spawned the rise of early futures contracts. It all ended badly.",
     content: [
@@ -364,6 +379,7 @@ const ARTICLES = [
     title: "FIFA looks broken by every modern governance standard",
     date: "2026-06-23",
     image: "",
+    categories: ["society"],
     teaser:
       "And that may be exactly why it works.",
     content: [
@@ -404,6 +420,7 @@ const ARTICLES = [
     title: "The Great State Bailout: A 2026 Reckoning",
     date: "2026-04-30",
     image: "",
+    categories: ["macro"],
     teaser:
       "The Big Picture: California and Illinois are hurtling toward a fiscal cliff. Decades of structural commitments to public-sector unions have created unsustainable debt loads. With federal coffers in the same or worse state, the conversation is shifting toward an uncomfortable question: Will Texas and Florida be forced to foot the bill?",
     content: [
@@ -428,6 +445,7 @@ const ARTICLES = [
     title: "The edge case and the Beginning of Hope for Humanity",
     date: "2026-04-27",
     image: "",
+    categories: ["society"],
     teaser:
       "The Big Idea:  AI is a regression to the mean machine. While it dominates the center of the field, it is fundamentally blunted by edge cases—the rare, non-linear events where historic patterns break down and true alpha is found.",
     content: [
@@ -452,6 +470,7 @@ const ARTICLES = [
     title: "The Death Throes of a World Power",
     date: "2026-04-04",
     image: "",
+    categories: ["society", "macro"],
     teaser:
       "For centuries, Britain’s moat was its fortress. In April 2026, as the Iran conflict chokes global energy, that moat has become a cage. The Special Relationship with the US is a ghost, the European bridge is burned, and the cupboards are bare.",
     content: [
@@ -486,6 +505,7 @@ const ARTICLES = [
     title: "God has been replaced- well, perhaps",
     date: "2026-04-01",
     image: "",
+    categories: ["society"],
     teaser:
       "THE SILICON SHEPHERD: TRADING SOVEREIGNTY FOR THE SACRED INTERFACE",
     content: [
@@ -529,6 +549,7 @@ const ARTICLES = [
     title: "Duolingo:  Pursuit of revenue versus value",
     date: "2026-03-30",
     image: "",
+    categories: ["macro", "leadership"],
     teaser:
       "When the Streak Becomes the Product (and the Problem)",
     content: [
@@ -550,6 +571,7 @@ const ARTICLES = [
     title: "The AI Revolution is Hitting a Physical Wall",
     date: "2026-03-28",
     image: "",
+    categories: ["energy", "macro"],
     teaser:
       "We’ve spent a decade obsessed with the Cloud. We forgot that the Cloud runs on copper, timber, and high-voltage steel. The digital arms race for AI and data centers has officially collided with a crumbling 19th-century physical foundation.",
     content: [
@@ -574,6 +596,7 @@ const ARTICLES = [
     title: "The Grid is the New Bottleneck for AI",
     date: "2026-03-26",
     image: "",
+    categories: ["energy"],
     teaser:
       "The 2026 CERAWeek conference, themed Convergence and Competition: Energy, Technology, and Geopolitics, is currently highlighting a massive shift in the energy landscape.",
     content: [
@@ -594,6 +617,7 @@ const ARTICLES = [
     title: "📉 The GDP of Solitude: Why Freedom became a Synonym for Loneliness",
     date: "2026-02-17",
     image: "",
+    categories: ["society"],
     teaser:
       "Your independence isn't just a lifestyle choice. It’s a consumer category.",
     content: [
@@ -624,6 +648,7 @@ const ARTICLES = [
     title: "The Healthcare Jobs Myth: Why Growth is a Warning Sign, Not a Win",
     date: "2026-02-12",
     image: "",
+    categories: ["macro"],
     teaser:
       "You’ve seen the headlines: Healthcare is the primary engine of job growth in 2026. On paper, it looks like a booming sector. But look under the hood, and the narrative shifts from growth to a structural emergency.",
     content: [
@@ -648,6 +673,7 @@ const ARTICLES = [
     title: "The end of us!",
     date: "2026-02-03",
     image: "",
+    categories: ["society"],
     teaser:
       "We aren't facing biological extinction; we are facing anthropological domestication. Much like wolves became dogs—trading their pack-dependency for the safety of a master—we are trading our social 'wildness' for the curated validation of algorithms. The 'End of Us' isn't a future threat. It is our current status.",
     content: [
@@ -668,6 +694,7 @@ const ARTICLES = [
     title: "Corporate Welfare Disguised as Energy Policy?",
     date: "2025-11-19",
     image: "",
+    categories: ["energy", "macro"],
     teaser:
       "The Three Mile Island Loan Raises Questions",
     content: [
@@ -700,6 +727,7 @@ const ARTICLES = [
     title: "# Every Single Person in Cincinnati Just Died—Imagine Our Response",
     date: "2025-11-16",
     image: "",
+    categories: ["society"],
     teaser:
       "Fury and hellfire.",
     content: [
@@ -725,6 +753,7 @@ const ARTICLES = [
     title: "Why Duolingo Falls Short: A User’s Perspective",
     date: "2025-11-04",
     image: "",
+    categories: ["leadership", "macro"],
     teaser:
       "Duolingo dominates the language learning market not because it’s particularly good, but because the alternatives are worse. The CEO’s billionaire status reflects lack of competition rather than product excellence, and recent decisions suggest the company has lost sight of what actually helps people learn languages.",
     content: [
@@ -752,6 +781,7 @@ const ARTICLES = [
     title: "More about the drivers behind loneliness",
     date: "2025-10-14",
     image: "",
+    categories: ["society"],
     teaser:
       "Some insightful thoughts about the rise of loneliness specially targeting the effects of TV and doom scrolling.",
     content: [
@@ -766,6 +796,7 @@ const ARTICLES = [
     title: "Screaming into the abyss!  Where are all the workers?",
     date: "2025-10-07",
     image: "",
+    categories: ["society", "macro"],
     teaser:
       "Why we need pragmatists in our government formulating policy versus ideologues.",
     content: [
@@ -780,6 +811,7 @@ const ARTICLES = [
     title: "The Inexcusable Cost of Imperfection: Why We Must Accelerate the Autonomous Revolution",
     date: "2025-10-04",
     image: "",
+    categories: ["macro"],
     teaser:
       "Why are we tolerating needless deaths?",
     content: [
@@ -800,6 +832,7 @@ const ARTICLES = [
     title: "Does this look like 5 stars to you?",
     date: "2025-04-14",
     image: "",
+    categories: ["society"],
     teaser:
       "# Why Feedback Systems Fail",
     content: [
@@ -831,6 +864,7 @@ const ARTICLES = [
     title: "Leading a Successful Business Turnaround:",
     date: "2025-02-20",
     image: "",
+    categories: ["leadership"],
     teaser:
       "Lessons from Experience of 7 successful turnarounds.",
     content: [
@@ -849,6 +883,7 @@ const ARTICLES = [
     title: "It is happening- science fiction in our time right now!",
     date: "2025-02-13",
     image: "",
+    categories: ["society"],
     teaser:
       "You can now be watched and from a distance with high resolution.",
     content: [
@@ -864,6 +899,7 @@ const ARTICLES = [
     title: "Alexander the Great and the Gordian Knot",
     date: "2025-02-11",
     image: "",
+    categories: ["leadership"],
     teaser:
       "History reenacted?",
     content: [
@@ -881,6 +917,7 @@ const ARTICLES = [
     title: "A sunset or sunrise?",
     date: "2025-02-10",
     image: "",
+    categories: ["society"],
     teaser:
       "# The Great Disconnect: Making Sense of Today's Economic and Social Paradoxes",
     content: [
@@ -901,6 +938,7 @@ const ARTICLES = [
     title: "Car control systems",
     date: "2025-02-06",
     image: "",
+    categories: ["society"],
     teaser:
       "Two very different views.  The first,  car manufacturers which insist on packing ever more complicated control systems into their cars recently typified by BMW see the link to the article in the following comment.",
     content: [
@@ -913,6 +951,7 @@ const ARTICLES = [
     title: "New ways of supplying energy to supplement traditional sources",
     date: "2025-01-31",
     image: "",
+    categories: ["energy"],
     teaser:
       "I’ve been reading with interest about fracking technology being applied to energy extraction from hot rocks.",
     content: [
@@ -927,6 +966,7 @@ const ARTICLES = [
     title: "Part 3 of the article on loneliness in our society today",
     date: "2025-01-23",
     image: "",
+    categories: ["society"],
     teaser:
       "Solutions for the Social Recession: What Leaders Can Do",
     content: [
@@ -963,6 +1003,7 @@ const ARTICLES = [
     title: "The Loneliness Crisis, Part 2: The Socioeconomic Divide",
     date: "2025-01-20",
     image: "",
+    categories: ["society"],
     teaser:
       "Following on with part 2 of the 3-part series of commentary on the loneliness crisis we are experiencing.",
     content: [
@@ -1000,6 +1041,7 @@ const ARTICLES = [
     title: "The Hidden Pandemic: A 3-Part Series on Loneliness in Modern Society",
     date: "2025-01-15",
     image: "",
+    categories: ["society"],
     teaser:
       "I know this is shameless use of clickbait, however I hope you will read on about what I believe to be a massive, invisible crisis that many societies are facing.",
     content: [
@@ -1031,6 +1073,7 @@ const ARTICLES = [
     title: "New ways of enlarging the energy supply envelope:",
     date: "2025-01-09",
     image: "",
+    categories: ["energy"],
     teaser:
       "I have long maintained that human ingenuity will find ways of solving our energy crisis and the associated carbon footprint problem.",
     content: [
@@ -1046,6 +1089,7 @@ const ARTICLES = [
     title: "Almost disaster turned into a business opportunity!",
     date: "2024-09-24",
     image: "",
+    categories: ["leadership"],
     teaser:
       "Also seems like a utility company double dipping on the tax base paid for by the residential customers while providing benefit solely to a large AI company.",
     content: [
@@ -1060,6 +1104,7 @@ const ARTICLES = [
     title: "20% of nuclear plants are sited on geological fault lines!",
     date: "2024-09-20",
     image: "",
+    categories: ["energy"],
     teaser:
       "We need more but let’s not put more of them on these sorts of sites.",
     content: [
@@ -1104,6 +1149,7 @@ const ARTICLES = [
     title: "The Electric Vehicle Revolution: Promises, Challenges, and Market Realities",
     date: "2024-09-16",
     image: "",
+    categories: ["energy", "macro"],
     teaser:
       "Introduction:",
     content: [
@@ -1160,6 +1206,7 @@ const ARTICLES = [
     title: "# Rethinking Outdated Industries: USPS and Utilities",
     date: "2024-09-11",
     image: "",
+    categories: ["macro", "energy"],
     teaser:
       "Two American institutions face obsolescence due to changing markets and outdated practices: the United States Postal Service (USPS) and the utility power industry. Both are grappling with massive societal shifts that threaten their traditional business models.",
     content: [
@@ -1182,6 +1229,7 @@ const ARTICLES = [
     title: "Perspective Shift:",
     date: "2024-08-06",
     image: "",
+    categories: ["society"],
     teaser:
       "Insights from a Transformative Journey",
     content: [
@@ -1208,6 +1256,7 @@ const ARTICLES = [
     title: "Lead like a Roman Emperor:",
     date: "2024-07-31",
     image: "",
+    categories: ["leadership"],
     teaser:
       "Marcus Aurelius, the Roman Emperor and Stoic philosopher, offered several key thoughts for leaders which are as relevant today as they were when he was alive.  However the tragedy is that they can be observed by their absence rather than demonstration, particularly by those who lead or desire to do so...",
     content: [
@@ -1231,6 +1280,7 @@ const ARTICLES = [
     title: "The Looming Crisis in America's Electrical Infrastructure",
     date: "2024-07-22",
     image: "",
+    categories: ["energy"],
     teaser:
       "Introduction:",
     content: [
@@ -1275,6 +1325,7 @@ const ARTICLES = [
     title: "Learning from Others: Improving Houston's Electrical Infrastructure",
     date: "2024-07-18",
     image: "",
+    categories: ["energy"],
     teaser:
       "As Houston grapples with its fragile electrical infrastructure, it's crucial to learn from the successes and failures of other regions facing similar challenges. Florida, which shares Texas' vulnerability to extreme weather and flooding, has significantly improved its electrical grid resilience.",
     content: [
@@ -1314,6 +1365,7 @@ const ARTICLES = [
     title: "Reflections on Houston's Post-Hurricane Beryl Experience",
     date: "2024-07-17",
     image: "",
+    categories: ["society", "energy"],
     teaser:
       "I've previously written about the macro aspects of Hurricane Beryl's impact on Houston. This article focuses on the micro-level effects, particularly how households coped with the challenges Beryl presented.",
     content: [
@@ -1341,6 +1393,7 @@ const ARTICLES = [
     title: "The Cost of Getting to Net Zero and a More Resilient Grid",
     date: "2024-07-15",
     image: "",
+    categories: ["energy"],
     teaser:
       "Here is some supporting data with respect to the cost of getting to net zero and increasing the resiliency of the worldwide grid.",
     content: [
@@ -1353,6 +1406,7 @@ const ARTICLES = [
     title: "Texas Power Grid Challenges: From Distribution Failures to Workforce Shortages",
     date: "2024-07-12",
     image: "",
+    categories: ["energy"],
     teaser:
       "Introduction: Recent events in Texas have highlighted significant challenges facing our power infrastructure. This article explores the interconnected issues of increased demand, aging infrastructure, climate change impacts, and workforce shortages.",
     content: [
@@ -1370,6 +1424,7 @@ const ARTICLES = [
     title: "AI is about to take our power!",
     date: "2024-07-03",
     image: "",
+    categories: ["energy", "macro"],
     teaser:
       "https://lnkd.in/g47vMBHz",
     content: [
@@ -1396,6 +1451,7 @@ const ARTICLES = [
     title: "https://lnkd.in/gFesNF5p",
     date: "2024-06-27",
     image: "",
+    categories: ["macro"],
     teaser:
       "and it has only got worse since this visual was created",
     content: [
@@ -1424,6 +1480,7 @@ const ARTICLES = [
     title: "The EV story and why it hasn’t ignited as much change as expected",
     date: "2024-06-11",
     image: "",
+    categories: ["energy"],
     teaser:
       "The much documented reason for the failure of broader market penetration of EV's is primarily range anxiety and secondarily the cost, even after subsidies of a generous nature from many governments.",
     content: [
@@ -1445,6 +1502,7 @@ const ARTICLES = [
     title: "Practical immediate suggestions of help for low income households struggling with bills",
     date: "2024-05-02",
     image: "",
+    categories: ["energy", "society"],
     teaser:
       "In my previous post, I discussed the challenges low-income electricity consumers will likely face in the near future driven by international supply and demand.",
     content: [
@@ -1464,6 +1522,7 @@ const ARTICLES = [
     title: "Risk mitigation in the retail energy world",
     date: "2024-02-13",
     image: "",
+    categories: ["energy"],
     teaser:
       "In the wild and constantly changing terrain of the retail energy industry, the need for robust risk mitigation strategies only gets more critical.",
     content: [
@@ -1481,6 +1540,7 @@ const ARTICLES = [
     title: "Understanding the mindset of our energy consumers",
     date: "2023-10-18",
     image: "",
+    categories: ["energy"],
     teaser:
       "The two words that spring to my mind are frustration and maybe even anger at the ever increasing cost and an allied and adverse increase in grid fragility.",
     content: [
@@ -1499,6 +1559,7 @@ const ARTICLES = [
     title: "On a lighter note…",
     date: "2023-08-22",
     image: "",
+    categories: ["society"],
     teaser:
       "If time travel was possible here is what I would tell my younger self- not least because my sons don’t listen to me…..",
     content: [
@@ -1515,6 +1576,7 @@ const ARTICLES = [
     title: "A theory for your consideration- spike strength and it’s corollary, spike weakness",
     date: "2023-08-17",
     image: "",
+    categories: ["leadership"],
     teaser:
       "Here is a methodology for cost effectively producing extraordinary performance in teams and organizations without breaking the bank.",
     content: [
@@ -1532,6 +1594,7 @@ const ARTICLES = [
     title: "An Update on Firefly Energy Solutions",
     date: "2023-07-11",
     image: "",
+    categories: ["energy", "leadership"],
     teaser:
       "Helping do better with what we have — but first, why is our company called Firefly Energy Solutions? The firefly's light is the most efficient light source, bar none. Here is an update on where we are as a business.",
     content: [
@@ -1552,6 +1615,7 @@ const ARTICLES = [
     title: "Climate Change and the World Energy Balance",
     date: "2023-06-29",
     image: "",
+    categories: ["energy", "macro"],
     teaser:
       "Climate change and the world energy balance are important topics that continue to be quite literally hot topics across the world. Whether you are a small country, a large country, developing or developed, energy matters to your population and economy.",
     content: [
@@ -1569,6 +1633,7 @@ const ARTICLES = [
     title: "NACD TriCity Chapter",
     date: "2023-06-07",
     image: "",
+    categories: ["leadership"],
     teaser:
       "I was recently elected to the Advisory Board of NACD TTC. I am looking forward to contributing and working with a lot of impressive, experienced directors drawn from Boards of all stripes. #NACDTT.",
     content: [
@@ -1585,6 +1650,7 @@ const ARTICLES = [
     title: "The Two Most Important Qualities of a Leader",
     date: "2023-05-23",
     image: "",
+    categories: ["leadership"],
     teaser:
       "In my personal experience, the body of work surrounding great leadership has so much written on it, and yet so little of real value. There is so much process with little direction on how to apply it in real life, difficult circumstances, with challenging people and challenging environments.",
     content: [
@@ -1604,6 +1670,7 @@ const ARTICLES = [
     title: "What NRG Should Focus On: A Response to Elliott's Critique",
     date: "2023-05-15",
     image: "",
+    categories: ["energy", "macro"],
     teaser:
       "This morning, an interesting article was posted about by a major shareholder of NRG describing their criticism of NRG's strategy and financial performance.",
     content: [
@@ -1619,6 +1686,7 @@ const ARTICLES = [
     title: "Where did all the people go?",
     date: "2022-12-07",
     image: "",
+    categories: ["society"],
     teaser:
       "There is a lot of talk about the number of US jobs no one can fill. The number was recently published as 11.X million. So, let’s call this number 11 million plus or minus a small number. As far as I can tell most of the conversation is around the small number and therefore spurious.",
     content: [
@@ -1642,6 +1710,7 @@ const ARTICLES = [
     title: "Leading well involves setting appropriate objectives from day one",
     date: "2022-08-30",
     image: "",
+    categories: ["leadership"],
     teaser:
       "Most organizations are often halfway through their year before the get around to this which eviscerates their effectiveness.",
     content: [
@@ -1656,6 +1725,7 @@ const ARTICLES = [
     title: "The Major Challenges Facing Retail Energy Companies",
     date: "2022-08-11",
     image: "",
+    categories: ["energy"],
     teaser:
       "Will you help? I am sitting literally on a beach thinking about the forthcoming Electricity Marketing Conference in NY, and the panel I've been asked to moderate on the major challenges retail energy companies are facing.",
     content: [
@@ -1672,6 +1742,7 @@ const ARTICLES = [
     title: "Part B of how to lead in challenging times",
     date: "2022-07-13",
     image: "",
+    categories: ["leadership"],
     teaser:
       "Before going too much further it is worth illustrating why this cadence of sequential order is often ignored.  The second to fourth P are all people denominated.   The first and fifth are often the refuge of failing businesses or businesses that have lost their way.  The thought of “if only we get the strategy right everything will work”, looking for the silver bullet.  I have never found that this works.",
     content: [
@@ -1687,6 +1758,7 @@ const ARTICLES = [
     title: "A Simple Formula to Lead Through Difficult Times (Part A)",
     date: "2022-07-13",
     image: "",
+    categories: ["leadership"],
     teaser:
       "A simple formula to lead through difficult times (due to character limits, I have split this post into Part A and Part B).",
     content: [
@@ -1707,6 +1779,7 @@ const ARTICLES = [
     title: "The ESG case for Primus Green Energy technology",
     date: "2019-11-05",
     image: "",
+    categories: ["energy"],
     teaser:
       "PE companies are being challenged to show commitment to ESG ie Environmental, Social and Governance.",
     content: [
@@ -1722,8 +1795,6 @@ const ARTICLES = [
       "•	We can also make methanol which is highly biodegradable.  To illustrate if the Exxon Valdez had been filled with methanol the problem would have lasted less than a day and affected the environment so much less than the crude oil spill.",
       "-reasons to be proud of working in this arena.",
       "Interested in hearing other perspectives on this topic.",
-      "## Best,",
-      "Steven",
     ],
   },
 ];
