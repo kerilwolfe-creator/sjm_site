@@ -32,7 +32,7 @@ const CATEGORY_ORDER = ["energy", "macro", "leadership", "society"];
 function initInsightsPage() {
   const tocList = document.getElementById("toc-list");
   const articlesColumn = document.getElementById("articles-column");
-  const filterBar = document.getElementById("category-filter");
+  const filterBar = document.getElementById("filter-pills");
   if (!tocList || !articlesColumn || typeof ARTICLES === "undefined") return;
 
   const sorted = [...ARTICLES].sort(
