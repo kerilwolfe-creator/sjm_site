@@ -224,3 +224,23 @@ document.addEventListener("DOMContentLoaded", () => {
     if (e.key === "Escape") closeLightbox();
   });
 });
+
+/* ---------- Back to top button ---------- */
+document.addEventListener("DOMContentLoaded", () => {
+  const btn = document.createElement("button");
+  btn.className = "back-to-top";
+  btn.setAttribute("aria-label", "Back to top");
+  btn.innerHTML = "&uarr;";
+  document.body.appendChild(btn);
+
+  const toggleVisibility = () => {
+    btn.classList.toggle("visible", window.scrollY > 600);
+  };
+
+  window.addEventListener("scroll", toggleVisibility, { passive: true });
+  toggleVisibility();
+
+  btn.addEventListener("click", () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+});
