@@ -101,3 +101,45 @@ function initInsightsPage() {
 }
 
 document.addEventListener("DOMContentLoaded", initInsightsPage);
+
+/* ---------- Image lightbox (click to zoom) ---------- */
+document.addEventListener("DOMContentLoaded", () => {
+  const overlay = document.createElement("div");
+  overlay.className = "lightbox-overlay";
+  overlay.innerHTML = `<button class="lightbox-close" aria-label="Close">Close ✕</button><img alt="">`;
+  document.body.appendChild(overlay);
+
+  const overlayImg = overlay.querySelector("img");
+  const closeBtn = overlay.querySelector(".lightbox-close");
+
+  const openLightbox = (src, alt) => {
+    overlayImg.src = src;
+    overlayImg.alt = alt || "";
+    overlay.classList.add("open");
+    document.body.style.overflow = "hidden";
+  };
+
+  const closeLightbox = () => {
+    overlay.classList.remove("open");
+    document.body.style.overflow = "";
+  };
+
+  document.addEventListener("click", (e) => {
+    const img = e.target.closest(
+      ".hero-image img, .about-portrait img, .post-image img"
+    );
+    if (img) {
+      openLightbox(img.currentSrc || img.src, img.alt);
+    }
+  });
+
+  overlay.addEventListener("click", closeLightbox);
+  closeBtn.addEventListener("click", (e) => {
+    e.stopPropagation();
+    closeLightbox();
+  });
+
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") closeLightbox();
+  });
+});
