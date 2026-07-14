@@ -209,7 +209,7 @@ const ARTICLES = [
     id: "who-is-really-looking-out-for",
     title: "Who is really looking out for low or fixed income electricity users?",
     date: "2024-04-30",
-    image: "images/who-is-really-looking-out-for.jpg",
+    image: "images/who-is-really-looking-out-for.png",
     categories: ["energy", "society"],
     teaser:
       "AI and crypto electricity demands are going to pressure low-income energy users. They are also encouraging coal plants to keep operating.",
@@ -265,7 +265,7 @@ const ARTICLES = [
     id: "some-thoughts-on-the-wrong-and",
     title: "Some thoughts on the wrong and right way to network",
     date: "2017-05-30",
-    image: "images/some-thoughts-on-the-wrong-and.jpg",
+    image: "",
     categories: ["leadership"],
     teaser:
       "Let me first acknowedge I have made all of the mistakes I describe in the first part of this note, the wrong way. The second part is an approach I think is more likely to engender positive interactions.",
@@ -298,7 +298,7 @@ const ARTICLES = [
     id: "why-retail-energy-is-so-fundamentally",
     title: "Why retail energy is so fundamentally unstable and in need of disruption.",
     date: "2017-05-21",
-    image: "images/why-retail-energy-is-so-fundamentally.jpg",
+    image: "",
     categories: ["energy"],
     teaser:
       "A substantial number of factors are converging on our industry to fundamentally change the products that our consumers use and how they interact with energy. Where I struggle is how these factors will be synthesized and esp. whether they will benefit current players.",
