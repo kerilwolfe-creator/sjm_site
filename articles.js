@@ -54,7 +54,7 @@ const ARTICLES = [
     id: "the-ai-power-boom-is-racing",
     title: "The AI Power Boom Is Racing Toward a Multi‑Trillion‑Dollar Wall",
     date: "2026-06-30",
-    image: "images/the-ai-power-boom-is-racing.jpg",
+    image: "images/the-ai-power-boom-is-racing.png",
     categories: ["energy", "macro"],
     teaser:
       "Tech hyperscalers and utilities have already committed **hundreds of billions** to data centers and **$1.4 trillion** to grid expansion. If AI demand plateaus, those gigawatts don’t disappear - they become a multi‑trillion‑dollar liability split between long Power Purchase Agreements (PPAs) and stranded grid investments. This is where the power goes - and who gets stuck with the bill.",
@@ -87,7 +87,7 @@ const ARTICLES = [
     id: "reframing-the-refugee-narrative-an-economic",
     title: "Reframing the Refugee Narrative: An Economic Imperative",
     date: "2026-06-16",
-    image: "images/reframing-the-refugee-narrative-an-economic.jpg",
+    image: "images/reframing-the-refugee-narrative-an-economic.png",
     categories: ["society", "macro"],
     teaser:
       "Framing 120 million displaced people in the world solely as a humanitarian crisis isn't working anymore.",
