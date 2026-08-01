@@ -1862,7 +1862,7 @@ const ARTICLES = [
     id: "cautionary-note-ai-debt-held",
     title: "Cautionary note: AI Debt held in off-balance sheet SPVs",
     date: "2026-07-28",
-    image: "images/ai-debt-spvs.jpeg",
+    image: "images/ai-debt-spvs.jpg",
     categories: ["macro", "energy"],
     teaser:
       "Is the AI infrastructure boom obscuring a $1.5 trillion problem?",
