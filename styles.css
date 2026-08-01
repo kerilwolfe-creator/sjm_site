@@ -9,7 +9,7 @@
   --paper: #ffffff;
   --grey: #6b6b6b;
   --grey-light: #d8d8d6;
-  --accent: #7a2e26; /* muted oxblood — used sparingly */
+  --accent: #0f6b6b; /* teal — used for link hover states */
   --display: 'Libre Caslon Text', 'PT Serif', Georgia, serif;
   --body: 'PT Serif', Georgia, serif;
   --rule: 1px solid var(--ink);
@@ -127,7 +127,11 @@ nav.primary-nav a {
   transition: border-color 0.15s ease;
 }
 
-nav.primary-nav a:hover,
+nav.primary-nav a:hover {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+
 nav.primary-nav a[aria-current="page"] {
   border-bottom-color: var(--ink);
 }
@@ -160,7 +164,7 @@ nav.primary-nav a[aria-current="page"] {
 }
 
 .footer-inner a { color: var(--grey); }
-.footer-inner a:hover { color: var(--ink); }
+.footer-inner a:hover { color: var(--accent); }
 
 /* ---------- Generic layout ---------- */
 
@@ -342,7 +346,11 @@ hr.hairline {
   margin-bottom: 3px;
 }
 
-.toc-list a:hover,
+.toc-list a:hover {
+  color: var(--accent);
+  border-left-color: var(--accent);
+}
+
 .toc-list li.active a {
   color: var(--ink);
   border-left-color: var(--ink);
