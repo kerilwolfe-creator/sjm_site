@@ -464,13 +464,6 @@ article.post .content h3.section-heading:first-child { margin-top: 0; }
   min-width: 0;
 }
 
-.about-layout h1 {
-  font-family: var(--display);
-  font-weight: 400;
-  font-size: 2.3rem;
-  margin: 0 0 28px;
-}
-
 .about-layout .content p { margin: 0 0 18px; max-width: 62ch; }
 
 .about-portrait {
