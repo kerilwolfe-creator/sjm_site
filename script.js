@@ -261,7 +261,7 @@ document.addEventListener("DOMContentLoaded", () => {
           el.style.display = "none";
         });
         showMessage(
-          "Thanks — your message has been sent. Steven will get back to you soon."
+          "Thank you for reaching out to Steven. He will reply as soon as possible."
         );
       } else {
         submitBtn.disabled = false;
