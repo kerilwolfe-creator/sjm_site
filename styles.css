@@ -603,6 +603,18 @@ form.contact-form { display: flex; flex-direction: column; gap: 20px; }
   margin-top: 4px;
 }
 
+.form-status {
+  font-family: var(--body);
+  font-size: 1rem;
+  color: var(--ink);
+  margin-top: 6px;
+}
+
+.form-status-error {
+  color: var(--grey);
+  font-style: italic;
+}
+
 @media (max-width: 780px) {
   .contact-layout { grid-template-columns: 1fr; gap: 40px; }
 }
